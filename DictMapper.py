@@ -133,9 +133,9 @@ def main(argc,argv):
     FILE_DST=argv[3]
     FILE_LOG=argv[4]
   elif argc==1:
-    FILE_DICT="Dicts.yml"
-    FILE_SRC="GregTech_en.txt"
-    FILE_DST="GregTech_cn.txt"
+    FILE_DICT="Dictionary.yml"
+    FILE_SRC="GregTech_en-US.lang"
+    FILE_DST="GregTech_zh-CN.lang"
     FILE_LOG="UnTranslated.txt"
   else:
     print('python3 DictMapper.py [Dictionary File] [Source File] [Translated File] [UnTranslated Strings]')

@@ -7,7 +7,7 @@
 
     python3 DictMapper.py [Dictionary File] [Source File] [Translated File] [UnTranslated Strings]
     四个参数缺一不可，如一个参数也不加就等同于
-    python3 DictMapper.py Dicts.tml GregTech\_en.txt GregTech\_cn.txt UnTranslated.txt
+    python3 DictMapper.py Dictionary.yml GregTech_en-US.lang GregTech_zh-CN.lang UnTranslated.txt
 
 字典替换器硬编码的功能:
 
