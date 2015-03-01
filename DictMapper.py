@@ -1,8 +1,9 @@
 #!/bin/python3
 import yaml,re,sys
 
+ISOTOPE_REGEX=re.compile(r"(.*?)-(\d+)")
 def try_isotope(txt,dict1,dict2):
-  tmp=re.search(r"(.*?)-(\d+)",txt)
+  tmp=ISOTOPE_REGEX.search(txt)
   if tmp==None or len(tmp.groups())!=2: return ''
   a=tmp.group(1)
   b=tmp.group(2)
@@ -32,7 +33,7 @@ def translate(txt,pri,sec,unt):
   for t in [sec,pri]:
     ok=False
     for regex in t[2]:
-      res=re.search(regex,txt)
+      res=regex.search(txt)
       if res!=None:
         re_groups=res.groups()
         group_format=t[2][regex]
@@ -107,7 +108,7 @@ def load_dict(rule_list):
   for key_o in rule_list:
     key=key_o.strip()
     if key[0]=='#':
-      regex[key[1:]]=rule_list[key_o]
+      regex[re.compile(key[1:])]=rule_list[key_o]
     elif key[0]=='$':
       continue
     else:
@@ -147,7 +148,7 @@ def main(argc,argv):
   GENERIC_DICT=load_dict(raw_dict)
   GROUPED_DICT=dict()
   for key in [x for x in raw_dict if x[0]=='$']:
-    GROUPED_DICT[key[1:]]=load_dict(raw_dict[key])
+    GROUPED_DICT[re.compile(key[1:])]=load_dict(raw_dict[key])
 
   with open(FILE_SRC,'r',encoding='UTF-8') as f:
     lines=f.read().split('\n')
@@ -164,7 +165,7 @@ def main(argc,argv):
 
       GROUP_DICT=None
       for m in GROUPED_DICT:
-        if re.match(m,group)!=None:
+        if m.match(group)!=None:
           GROUP_DICT=GROUPED_DICT[m]
           break
 
