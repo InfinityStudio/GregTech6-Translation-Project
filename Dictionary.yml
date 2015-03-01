@@ -404,43 +404,47 @@ Triennseptium: 397号元素(Tes)
 Triennoctium: 398号元素(Teo)
 Triennennium: 399号元素(Tee)
 
+#燃料
+Bio Ethanol: 生物乙醇
+Natural Gas: 天然气
+Diesel: 柴油
+Bio Diesel: 生物柴油
+Glyceryl Trinitrate: 硝化甘油
+Methane: 甲烷
+Ethanol: 乙醇
+
 #流体
 Air: 空气
-Bio Ethanol: 生物乙醇
+Water: 水
+Lava: 岩浆
 Biomass: 生物质
-Chlorine: 氯
+Oil: 油
+Raw Oil: 原油
+Light Oil: 轻油
+Heavy Oil: 重油
+Very Heavy Oil: 超重油
+Seed Oil: 种子油
 Creosote Oil: 木榴油
 Deuterium: 氘
 Tritium: 氚
 Fiery Blood: 炙热的血
-Natural Gas: 天然气
 Glue: 胶水
 Dragon Blood: 龙血
-Hot Frying Oil: 热油
-Heavy Oil: 重油
-Raw Oil: 原油
-Light Oil: 轻油
-Seed Oil: 种子油
-Very Heavy Oil: 超重油
-Diesel: 柴油
-Bio Diesel: 生物柴油
-Glyceryl Trinitrate: 硝化甘油
 Lubricant: 润滑剂
-Methane: 甲烷
-Mc Guffium 239: Mc Guffium 239
-Steam: 蒸汽
 Creosote: 杂酚油
-Ethanol: 乙醇
 Glyceryl: 甘油
+Steam: 蒸汽
+UU-Amplifier: UU增幅液
+UU Amplifier: UU增幅液
 
 #食物
 Fish Oil: 鱼油
 Holy Water: 圣水
-Lava: 岩浆
 Honey: 蜂蜜
 Coffee: 咖啡
 Dark Coffee: 清咖啡
 Juice: 汁
+Hot Frying Oil: 热食用油
 Tea: 茶
 Wine: 葡萄酒
 Rum: 朗姆酒
@@ -475,6 +479,8 @@ Flour: 面粉
 Eggplant: 茄子
 Vodka: 伏特加
 CoffeeDust: 咖啡粉
+Cooked Meat: 熟肉
+Raw Meat: 生肉
 Mince Meat: 生肉糜
 Cooked Mince Meat: 熟肉糜
 Reed Water: 甘蔗汁
@@ -486,10 +492,53 @@ Grape: 葡萄
 Salty Water: 盐水
 Scotch: 苏格兰威士忌
 Sweet Tea: 甜茶
+Sauce: 酱
+Diablo Sauce: 恶魔辣酱
+Old Man Snitches glitched Diablo Sauce: 老干爹辣椒酱
+Diabolo Sauce: 魔改型恶魔辣酱
+Sweet: 糖果
 
-#矿物
+#石材/建材
+Sandstone: 砂石
+Gravel: 沙砾
+Sand: 沙子
+Stone: 石头
+Mineral Sand: 矿砂
+Fullers Earth: 漂白土
+Endstone: 末地石
+Cobblestone: 圆石
+Granite: 花岗岩
+Wet Concrete: 湿的混凝土
+Concrete: 混凝土
+Bitumen: 沥青
+Netherrack: 地狱石
+
 BrickNether: 地狱砖
 Schist: 片岩
+Limestone: 石灰岩
+Apatite: 磷灰石
+Pumice: 浮石
+Perlite: 珍珠岩
+Borax: 硼砂
+Vermiculite: 蛭石
+Zeolite: 沸石
+Gypsum: 石膏
+Dolomite: 白云岩
+Gneiss: 片麻岩
+Greenstone: 绿岩
+Greywacke: 杂砂岩
+Gabbro: 辉长岩
+Komatiite: 科马提岩
+Siltstone: 粉砂岩
+Rhyolite: 流纹岩
+Shale: 页岩
+Eclogite: 榴辉岩
+Andesite: 安山岩
+Basalt: 玄武岩
+Feldspar: 长石
+
+#矿物
+'#^Small (.*) (Ore)$': "贫瘠的{0[0]}{0[1]}"
 Bentonite: 膨润土
 Garnet: 石榴石
 Chrysocolla: 硅孔雀石
@@ -502,14 +551,11 @@ Chromite: 铬铁矿
 Garnierite: 硅镁镍矿
 Glauconite: 海绿石
 Bluestone: 胆矾
-Limestone: 石灰岩
-Apatite: 磷灰石
 Sodalite: 方钠石
 Monazite: 独居石
 Quartzite: 石英岩
-Saltpeter: 硝石
 Oilsand: 油砂
-Pumice: 浮石
+Saltpeter: 硝石
 Diatomite: 硅藻土
 Almandine: 铁铝榴石
 Alumite: 明矾石
@@ -539,47 +585,31 @@ Tetrahedrite: 黝铜矿
 Tungstate: 钨酸盐矿
 Uraninite: 晶质铀矿
 Wulfenite: 钼铅矿
-Perlite: 珍珠岩
-Borax: 硼砂
-Biotite: 黑云母
 Bastnasite: 氟碳铈矿
 Pentlandite: 镍黄铁矿
 Spodumene: 锂辉矿
 Pollucite: 铯榴石
 Lepidolite: 锂云母
-Vermiculite: 蛭石
 Pitchblende: 沥青铀矿
 Malachite: 孔雀石
 Mirabilite: 芒硝
 Mica: 云母
+Biotite: 黑云母
 Trona: 天然碱
 Barite: 重晶石
-Gypsum: 石膏
 Alunite: 明矾石
-Dolomite: 白云岩
 Wollastonite: 硅灰石
-Zeolite: 沸石
 Kyanite: 蓝晶石
 Kaolinite: 高岭石
 Talc: 滑石
 Soapstone: 皂石
-Gneiss: 片麻岩
-Greenstone: 绿岩
-Greywacke: 杂砂岩
 Graphite: 石墨
 Graphene: 石墨烯
-Gabbro: 辉长岩
-Komatiite: 科马提岩
-Siltstone: 粉砂岩
-Rhyolite: 流纹岩
 Epidote: 绿帘石
-Emery: 金刚砂
-Shale: 页岩
-Eclogite: 榴辉岩
-Andesite: 安山岩
-Basalt: 玄武岩
-Feldspar: 长石
 Limonite: 褐铁矿
+Niter: 硝石
+Lignite Coal: 褐煤
+Rare Earth: 稀土
 
 #宝石
 Bloodstone: 鸡血石
@@ -600,23 +630,21 @@ Aquamarine: 海蓝宝石
 Agate: 玛瑙
 Citrine: 黄水晶
 Cyanite: 蓝晶石
+Lapis: 青金石
+Jet: 黑玉
 
 #材料
 Rubber: 橡胶
 Plastic: 塑料
-Sealed Wood: 蜡封木
 Wood: 木头
 Flint: 燧石
 Firestone: 燧石
 Chert: 燧石
 Fire: 火
 Ice: 冰
-Oil: 油
 Redstone: 红石
 Glass: 玻璃
 Blaze: 火焰棒
-Wet Concrete: 湿的混凝土
-Concrete: 混凝土
 Charcoal: 木炭
 Brick: 砖
 Ash: 灰
@@ -624,50 +652,43 @@ Ashes: 灰
 Snow: 雪
 Steeleaf: 钢叶
 Chalk: 粉笔
-Stone: 石头
-Peanutwood: 花生木
 Pulp: 纸浆
-Granite: 花岗岩
 Nether Star: 下界之星
 Gelatine: 明胶
 Glowstone: 萤石
 Fluorite: 萤石
-Niter: 硝石
 Enderpearl: 末影珍珠
 Endereye: 末影之眼
 Coal: 煤
-Lignite Coal: 褐煤
 Phosphate: 磷酸盐
 Rock Salt: 岩盐
 Salt: 盐
-Sandstone: 砂石
-Gravel: 沙砾
-Sand: 沙子
-Mineral Sand: 矿砂
 BioMass: 生物质
+Cardboard: 瓦楞纸
+Clay: 粘土
+Gunpowder: 火药
+Emery: 金刚砂
+Volcanic: 火山
+VolcanicAsh: 火山灰
+Desh: 戴斯
+Hydrated Coal: 水合煤
+TNT: TNT
+UU-Matter: UU物质
+Unstable: 不稳定
+Unstableingot: 不稳定锭
+Pure Lime: 纯石灰
+Bone Meal: 骨粉
+Sunnarium: 阳光化合物
+
+#物理名词
 Neutron: 中子
 Neutrino: 中微子
 Photon: 光子
 AntiElectron: 正电子
 Electron: 电子
-Nitro: 硝基
-Sulfuric Acid: 硫酸
-Ammonium: 铵
-Bitumen: 沥青
-Cardboard: 瓦楞纸
-Clay: 粘土
-Coral: 珊瑚
 Entropy: 熵
-Flax: 亚麻
-Gunpowder: 火药
-Lapis: 青金石
-Wheat: 小麦
-Endstone: 末地石
-Cobblestone: 圆石
-Ironwood: 硬木
-Fullers Earth: 漂白土
 
-#合金/金属/化合物
+#化学名词
 Chromium Dioxide: 二氧化铬
 Nitrogen Dioxide: 二氧化氮
 Sodium Persulfate: 过硫化钠
@@ -678,11 +699,46 @@ Osmium Tetroxide: 四氧化锇
 Silicon Dioxide: 二氧化硅
 Sodium Peroxide: 过氧化钠
 Sodium Sulfide: 硫化钠
+Nickel Sulfate: 硫酸镍
+
+Solution: 溶液
+Nitro: 硝基
+Sulfuric Acid: 硫酸
+Ammonium: 铵
+
+#农业/植物相关
+Sealed Wood: 蜡封木
+Peanutwood: 花生木
+Coral: 珊瑚
+Flax: 亚麻
+Wheat: 小麦
+Ironwood: 硬木
+Tree Sap: 树苗
+
+#合金/金属
+Iron: 铁
+Pig Iron: 生铁
+Wrought Iron: 熟铁
+WrougtIron: 熟铁
+Dark Iron: 玄铁
+Compressed Iron: 压缩铁
+Deep Iron: 深渊铁
+Meteoric Iron: 陨铁
+Meteoric Steel: 陨钢
+Steel: 钢
+Dark Steel: 玄钢
+Annealed Copper: 韧铜
+Infused Gold: 附魔金
+Stainless Steel: 不锈钢
+Damascus Steel: 大马士革钢
+HSLA-Steel: 高强度低合金钢
+HSLA: 高强度低合金
+Naquadah: 硅岩金属
+Naquadria: 硅岩金属
 
 Invar: 因瓦合金
 Bismuth Bronze: 铋青铜合金
 Vibranium: 钒合金
-Naquadah: 硅岩金属
 Adamantium: 艾德曼合金
 Rose Gold: 玫瑰金
 Vanadium-Gallium: 钒镓合金
@@ -691,18 +747,12 @@ AluminumBrass: 铝黄铜
 Aluminium Brass: 铝黄铜
 Electrum: 金银合金
 Bronze: 青铜
-Steel: 钢
-Iron: 铁
-Pig Iron: 生铁
-Wrought Iron: 熟铁
-
-Bronze: 青铜
 Brass: 黄铜
 Pewter: 白镴
-Stainless Steel: 不锈钢
-Damascus Steel: 大马士革钢
-HSLA-Steel: 高强度低合金钢
 Tungstensteel: 钨钢
+WolframSteel: 钨钢
+Wolframsteel: 钨钢
+Wolframium: 耐蚀含钨铝合金
 Chrome: 铬
 Cupronickel: 白铜
 Sterling Silver: 标准银
@@ -712,11 +762,11 @@ Magnalium: 镁铝合金
 Mithril: 秘银
 Osmiridium: 铱锇合金
 Carborundum: 碳化硅
+Wolfram: 钨
 
 #名词
 Battery: 电池
 Dust: 粉
-Sauce: 酱
 Ore: 矿石
 ingot: 锭
 Ingot: 锭
@@ -731,6 +781,8 @@ Gemstone: 宝石原石
 Antimatter: 反物质
 Metal: 金属
 Boiler: 锅炉
+Sheet: 片
+Chest: 箱子
 
 Rotor: 转子
 Ring: 环
@@ -739,8 +791,13 @@ Foil: 箔
 Wire: 线缆
 Nugget: 粒
 Rod: 杆
+Sticks/Rods: 杆/棍
+Long Sticks/Rods: 长杆/长棍
 Gear: 齿轮
 Spring: 弹簧
+Lense: 透镜
+Lens: 透镜
+Round: 垫片
 
 #其他Mod
 Infused Air: 风
@@ -756,6 +813,8 @@ Shard of Infused Water: 水之碎片
 Shard of Infused Entropy: 混沌碎片
 Shard of Infused Order: 秩序碎片
 Void Metal: 虚空金属
+Thaumium: 神秘锭
+Dark Thaumium: 黑暗神秘锭
 
 Fluix: 福鲁伊克斯
 Certus Quartz: 赛特斯石英
@@ -778,7 +837,7 @@ Shovel: 铲
 Shovel Head: 铲头
 Knife: 刀
 Butchery Knife: 屠刀
-Scoop: 勺
+Scoop: 捕虫网
 Wire Cutter: 剪线器
 Mortar: 研钵
 Crowbar: 撬棍
@@ -809,7 +868,7 @@ GregTech Sensor Card: 格雷科技传感器卡片
 Rolling Pin: 擀面杖
 
 #语句
-"Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000升液体
+"Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
 "You need to recharge it": 你需要为其充电
 "Hold Leftclick to dismantle Machines": 按住左键以拆卸机器
 "Breaks Rocks into pieces": 将岩石破成碎片
@@ -926,6 +985,7 @@ Quintuple: 五重
 'Any Sub-Item of this one': '任何该物品的子物品'
 'Generated Item': 生成的物品
 'NULL': NULL
+Unknown: 未知
 
 
 #合成表表头
@@ -935,16 +995,16 @@ Quintuple: 五重
   Assembler: 组装机
   Blast Furnace: 高炉
   Brewing Machine: 酿造炉
-  Ore Byproduct List: 矿物副产品列表
+  Ore Byproduct List: 矿物副产物列表
   Canning Machine: 灌装机
   Centrifuge: 离心机
   Chemical Bath: 化学浸洗器
   Chemical Reactor: 化学反应器
   CNC Machine: 数控机床
   Distillation Tower: 蒸馏塔
-  Distillery: 蒸馏酿造
+  Distillery: 蒸馏室
   Electrolyzer: 电解器
-  Electromagnetic Separator: 电磁离析器
+  Electromagnetic Separator: 电磁离析机
   Fermenter: 发酵器
   Fluid Canning Machine: 流体罐装机
   Fluid Extractor: 液体提取器
@@ -956,10 +1016,15 @@ Quintuple: 五重
   Fusion Reactor: 聚变反应器
   Hammer: 锤子/锻造锤
   Implosion Compressor: 聚爆压缩机
-  Precision Laser Engraver: 高精度镭射雕刻机
+  Precision Laser Engraver: 激光刻蚀机
   Lathe: 车床
-  Microwave: 微波炉子
+  Microwave: 微波炉
+  Magic Fuel: 魔法燃料
+  Extruder: 压模器
+  Mixer: 搅拌机
+  Packager: 打包器
   Plasma Arc Furnace: 等离子电弧炉
+  Plasma generator Fuels: 等离子发电机燃料
   Electromagnetic Polarizer: 电磁极化机
   Printer: 打印机
   Scanner: 扫描仪
@@ -968,12 +1033,17 @@ Quintuple: 五重
   Cutting Saw: 切割机
   Diesel Generator Fuel: 柴油发电机燃料
   Gas Turbine Fuel: 燃气涡轮燃料
-  Forming Press: 压印机
+  Forming Press: 压力成型机
   Semifluid Boiler Fuel: 半流体锅炉燃料
   Thermal Generator Fuel: 火力发电机燃料
   Autoclave: 高压釜
   Pulverization: 粉碎
   Slicer: 切片机 
+  Sifter: 筛滤机
+  Rock Breaker: 碎石机
+  Metal Bender: 卷板机
+  Unpackager: 拆包器
+  UU Amplifier: UU增幅液产生器
 '$^ic\.recipe.*?$':
   Compressor: 压缩机
   Extractor: 提取器
@@ -981,22 +1051,23 @@ Quintuple: 五重
   Recycler: 回收机
   Thermal Centrifuge: 热能离心机
 '$^mc\.recipe.*?$':
-  Furnace: 炉子
+  Furnace: 烧制
 
 #形容词
 Anti-: 反物质
 Plasma: 离子
 Enriched: 浓缩
 Small Pile of: 小堆
-Purified: 纯净的
+Purified: 纯净
 Tiny Pile of: 小撮
-Impure: 含杂的
+Impure: 含杂
 Pile of: 一堆
 Crushed: 粉碎的
 Molten: 熔化的
 Strong: 加强
 Bitter: 苦味
 Crate of: '板条箱:'
+Crates of: '板条箱:'
 Nether: 地狱
 Magnetic: 磁化
 Powder: 粉
@@ -1005,12 +1076,16 @@ Block of: 块状
 Centrifuged: 离心过的
 End: 末地
 Hot: 炙热的
-Dense: 致密的
+Dense: 致密
 Small: 小型
 Chipped: 碎裂的
 Exquisite: 精美的
 Flawed: 有瑕疵的
 Flawless: 无瑕的
+Cracked: 裂纹
+Mossy: 苔藓
+Chiseled: 錾制
+Smooth: 平滑
 
 #药水相关
 '$.*?potion.*':
@@ -1033,4 +1108,18 @@ Flawless: 无瑕的
   Thick: 浑浊的
   Lame: 迟缓
   Fishy: 水肺
+
+#物品组
+'$^itemGroup.*':
+  Small Ore: 贫瘠矿石
+  Cells of Plasma: 离子单元
+  Dust: 粉末
+  Small Dust: 小堆粉末
+  Tiny Dust: 很小一堆粉末
+  Main: 格雷科技
+  Blocks of Cast Metal: 铸造金属块
+
+'$.*?arrow.*':
+  Light: 轻质
+  Regular: 常规
   
