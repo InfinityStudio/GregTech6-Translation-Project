@@ -26,7 +26,7 @@ def translate_multi(words,x,l):
     if OK: return x+len(eng),chs
   return -1,None
 
-def translate(txt,pri,sec,unt):
+def translate(txt,pri,sec,unt,is_mat):
   if sec==None: sec=(dict(),dict(),dict())
   re_groups=None
   group_format=""
@@ -42,7 +42,7 @@ def translate(txt,pri,sec,unt):
     if ok: break
   if re_groups!=None:
     tmp=list()
-    for t in re_groups: tmp.append(translate(t,pri,sec,unt))
+    for t in re_groups: tmp.append(translate(t,pri,sec,unt,is_mat))
     return group_format.format(tmp)
 
 
@@ -96,7 +96,10 @@ def translate(txt,pri,sec,unt):
       translated_words.append(translated_word)
     else:
       translated_words.append(' '+word)
-      unt.add(word)
+      if is_mat:
+        unt.add("MAT "+word)
+      elif not "MAT "+word in unt:
+        unt.add(word)
 
     i+=1
   return ''.join(translated_words)
@@ -162,23 +165,28 @@ def main(argc,argv):
     else:
       prefix,tmp=line.split(':',1)
       group,text=tmp.split('=',1)
-
+      
       GROUP_DICT=None
       for m in GROUPED_DICT:
         if m.match(group)!=None:
           GROUP_DICT=GROUPED_DICT[m]
           break
 
-      translated_text=translate(text,GENERIC_DICT,GROUP_DICT,untranslated)
+      translated_text=translate(text,GENERIC_DICT,GROUP_DICT,untranslated,group.find("gt.material.")==0)
       dst.write("%s:%s=%s\n"%(prefix,group,translated_text))
 
   dst.close()
 
   with open(FILE_LOG,'w',encoding='utf8') as f:
-    t=[x for x in untranslated if x.strip()!='']
+    f.write("Untranslated Materials:\n")
+    t=[x[4:] for x in untranslated if x.strip()!='' and x[:4]=="MAT "]
     t.sort()
-    for s in t:
-      f.write(s+"\n")
+    for s in t: f.write("    "+s+"\n")
+    
+    f.write("Other Untranslated Strings:\n")
+    t=[x for x in untranslated if x.strip()!='' and x[:4]!="MAT "]
+    t.sort()
+    for s in t: f.write("    "+s+"\n")
 
 if __name__=="__main__":
   main(len(sys.argv),sys.argv)
