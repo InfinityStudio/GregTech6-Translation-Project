@@ -97,6 +97,7 @@ Uranium: 铀
 Uranium238: 铀-238
 Neptunium: 镎
 Plutonium: 钚
+Plutonium244: 钚-244
 Americium: 镅
 Curium: 锔
 Berkelium: 锫
@@ -120,6 +121,7 @@ Flerovium: Flerovium
 Ununpentium: 115号元素(Uup)
 Livermorium: Livermorium
 Ununseptium: 117号元素(Uus)
+Farnsium: Farnsium
 Ununoctium: 118号元素(Uuo)
 
 Ununennium: 119号元素(Uue)
@@ -425,6 +427,8 @@ Heavy Oil: 重油
 Very Heavy Oil: 超重油
 Seed Oil: 种子油
 Creosote Oil: 木榴油
+Nitro-Fuel: 木精油
+Crude Oil: 原油
 Deuterium: 氘
 Tritium: 氚
 Fiery Blood: 炙热的血
@@ -436,6 +440,7 @@ Glyceryl: 甘油
 Steam: 蒸汽
 UU-Amplifier: UU增幅液
 UU Amplifier: UU增幅液
+Uran: 尿
 
 #食物
 Fish Oil: 鱼油
@@ -451,6 +456,7 @@ Rum: 朗姆酒
 Lemonade: 柠檬汽水
 Cider: 苹果酒
 Mineral Water: 矿泉水
+Fresh Water: 淡水
 Limoncello: 意大利柠檬甜酒
 Leninade: 列宁柠檬水
 Lait au cafe: 法式牛奶咖啡
@@ -508,6 +514,7 @@ Fullers Earth: 漂白土
 Endstone: 末地石
 Cobblestone: 圆石
 Granite: 花岗岩
+Granitic: 花岗岩类
 Wet Concrete: 湿的混凝土
 Concrete: 混凝土
 Bitumen: 沥青
@@ -536,6 +543,7 @@ Eclogite: 榴辉岩
 Andesite: 安山岩
 Basalt: 玄武岩
 Feldspar: 长石
+Basaltic: 玄武岩类
 
 #矿物
 '#^Small (.*) (Ore)$': "贫瘠的{0[0]}{0[1]}"
@@ -610,6 +618,7 @@ Limonite: 褐铁矿
 Niter: 硝石
 Lignite Coal: 褐煤
 Rare Earth: 稀土
+Sylvite: 钾石盐
 
 #宝石
 Bloodstone: 鸡血石
@@ -632,6 +641,7 @@ Citrine: 黄水晶
 Cyanite: 蓝晶石
 Lapis: 青金石
 Jet: 黑玉
+DiamondIndustrial: 工业钻石
 
 #材料
 Rubber: 橡胶
@@ -678,7 +688,11 @@ Unstable: 不稳定
 Unstableingot: 不稳定锭
 Pure Lime: 纯石灰
 Bone Meal: 骨粉
-Sunnarium: 阳光化合物
+Soldering: 钎焊
+Tar: 焦油
+Tar Pitch: 焦油沥青
+Construction Foam: 建筑泡沫
+Bone: 骨头
 
 #物理名词
 Neutron: 中子
@@ -687,6 +701,8 @@ Photon: 光子
 AntiElectron: 正电子
 Electron: 电子
 Entropy: 熵
+Proton: 质子
+Superconductor: 超导体
 
 #化学名词
 Chromium Dioxide: 二氧化铬
@@ -700,16 +716,24 @@ Silicon Dioxide: 二氧化硅
 Sodium Peroxide: 过氧化钠
 Sodium Sulfide: 硫化钠
 Nickel Sulfate: 硫酸镍
+Cobalt Hexahydrate: 六水合钴
 
 Solution: 溶液
 Nitro: 硝基
 Sulfuric Acid: 硫酸
+Nitric Acid: 硝酸
+Aqua Regia: 王水
 Ammonium: 铵
+Potash: 钾碱
+Blue Vitriol: 蓝矾
 
 #农业/植物相关
 Sealed Wood: 蜡封木
 Peanutwood: 花生木
+Petrified Wood: 石化木
 Coral: 珊瑚
+Hemp: 大麻
+Lin: 亚麻
 Flax: 亚麻
 Wheat: 小麦
 Ironwood: 硬木
@@ -750,6 +774,7 @@ Bronze: 青铜
 Brass: 黄铜
 Pewter: 白镴
 Tungstensteel: 钨钢
+TungstenSteel: 钨钢
 WolframSteel: 钨钢
 Wolframsteel: 钨钢
 Wolframium: 耐蚀含钨铝合金
@@ -763,6 +788,12 @@ Mithril: 秘银
 Osmiridium: 铱锇合金
 Carborundum: 碳化硅
 Wolfram: 钨
+Red Alloy: 红色合金
+StrengthenedTerrasteelAlloy: 强化泰拉钢合金
+Terrasteel: 泰拉钢
+Raw Terrasteel: 粗制泰拉钢
+RawTerrasteelAlloy: 粗制泰拉钢合金
+Strengthened Terrasteel: 强化泰拉钢
 
 #名词
 Battery: 电池
@@ -812,6 +843,8 @@ Shard of Infused Earth: 地之碎片
 Shard of Infused Water: 水之碎片
 Shard of Infused Entropy: 混沌碎片
 Shard of Infused Order: 秩序碎片
+Vis: 魔力
+Void: 虚空
 Void Metal: 虚空金属
 Thaumium: 神秘锭
 Dark Thaumium: 黑暗神秘锭
@@ -819,6 +852,32 @@ Dark Thaumium: 黑暗神秘锭
 Fluix: 福鲁伊克斯
 Certus Quartz: 赛特斯石英
 Charged Certus Quartz: 充能赛特斯石英
+
+Sunnarium: 阳光化合物
+Duranium: 钍瑞铌
+Tritanium: 三钛合金
+Enderium: 末影
+Manyullyn: 玛玉灵
+Aredrite: 希尔金
+Midasium: 溶火金
+Astral Silver: 星辰银
+Fiery Steel: 过烧钢
+Knightmetal: 骑士锭
+KnightMetal: 骑士锭
+Shadow Iron: 暗影铁
+Shadow Steel: 暗影钢
+Ultimet: 哈氏合金
+Vinteum: 温特姆
+Adamant: 坚硬合金
+Adamantine: 坚硬合金化合物
+Adamite: 高碳铬镍合金
+Adluorite: 神秘蓝金
+Amordrine: 魔力之石
+Angmallen: 神圣之金
+Pulsating Iron: 脉冲铁
+Tartarite: 溶火之石
+Vulcanite: 熔岩结晶
+Vyroxeres: 幽冥剧毒
 
 #工具
 Buzzsaw: 圆锯
@@ -866,6 +925,8 @@ Saw: 锯
 Saw Blade: 锯刃
 GregTech Sensor Card: 格雷科技传感器卡片
 Rolling Pin: 擀面杖
+Chisel: 凿子
+Chisel Head: 凿子刀头
 
 #语句
 "Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
@@ -890,7 +951,7 @@ Rolling Pin: 擀面杖
 "Can also harvest Ice": 也可以用于采集冰块
 "Crushes Ores instead of harvesting them": 得到粉碎的矿石
 "Has a slow Attack Rate": 攻击速度慢
-
+"Rightclick to chisel Blocks": 右键凿刻方块
 
 '$^"Book\.Microwave Oven Manual(.*?)"$':
   'Microwave Oven Manual': '微波炉手册'
@@ -963,6 +1024,7 @@ Blue: 蓝
 Green: 绿
 Yellow: 黄
 Black: 黑
+Brown: 褐色
 
 #量词
 2x: 2x
@@ -986,7 +1048,16 @@ Quintuple: 五重
 'Generated Item': 生成的物品
 'NULL': NULL
 Unknown: 未知
-
+Voltage8: 电压：8
+Voltage32: 电压：32
+Voltage128: 电压：128
+Voltage512: 电压：512
+Voltage2048: 电压：2048
+Voltage8192: 电压：8192
+Voltage32768: 电压：32768
+Voltage131072: 电压：131072
+Voltage524288: 电压：524288
+Voltage2147483647: 电压：MAX
 
 #合成表表头
 '$^gt\.recipe.*?$':
@@ -1086,6 +1157,8 @@ Cracked: 裂纹
 Mossy: 苔藓
 Chiseled: 錾制
 Smooth: 平滑
+Any: 任何
+Basic: 基础的
 
 #药水相关
 '$.*?potion.*':
@@ -1118,6 +1191,8 @@ Smooth: 平滑
   Tiny Dust: 很小一堆粉末
   Main: 格雷科技
   Blocks of Cast Metal: 铸造金属块
+  Light: 轻质
+  Regular: 常规
 
 '$.*?arrow.*':
   Light: 轻质
