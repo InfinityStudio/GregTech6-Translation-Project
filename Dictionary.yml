@@ -420,6 +420,7 @@ Air: 空气
 Water: 水
 Lava: 岩浆
 Biomass: 生物质
+Petroleum: 石油
 Oil: 油
 Raw Oil: 原油
 Light Oil: 轻油
@@ -441,6 +442,7 @@ Steam: 蒸汽
 UU-Amplifier: UU增幅液
 UU Amplifier: UU增幅液
 Uran: 尿
+Mc Guffium 239: Mc Guffium 239
 
 #食物
 Fish Oil: 鱼油
@@ -544,6 +546,10 @@ Andesite: 安山岩
 Basalt: 玄武岩
 Feldspar: 长石
 Basaltic: 玄武岩类
+Marble: 大理石
+Microcline: 微斜长石
+Selenite: 透石膏
+Serpentine: 蛇纹石
 
 #矿物
 '#^Small (.*) (Ore)$': "贫瘠的{0[0]}{0[1]}"
@@ -615,6 +621,7 @@ Graphite: 石墨
 Graphene: 石墨烯
 Epidote: 绿帘石
 Limonite: 褐铁矿
+Hematite: 赤铁矿
 Niter: 硝石
 Lignite Coal: 褐煤
 Rare Earth: 稀土
@@ -642,6 +649,7 @@ Cyanite: 蓝晶石
 Lapis: 青金石
 Jet: 黑玉
 DiamondIndustrial: 工业钻石
+Moonstone: 月长石
 
 #材料
 Rubber: 橡胶
@@ -659,6 +667,7 @@ Charcoal: 木炭
 Brick: 砖
 Ash: 灰
 Ashes: 灰
+DarkAsh: 黑暗灰烬
 Snow: 雪
 Steeleaf: 钢叶
 Chalk: 粉笔
@@ -693,6 +702,22 @@ Tar: 焦油
 Tar Pitch: 焦油沥青
 Construction Foam: 建筑泡沫
 Bone: 骨头
+Graveyard Dirt: 墓地土
+Earth: 泥土
+Data: 数据
+Mc-Guffium: Mc-Guffium
+Soulsand: 灵魂沙
+RedRock: 红岩
+Redrock: 红岩
+QuickSilver: 水银
+Quicksilver: 水银
+Quicklime: 生石灰
+Peat: 泥炭
+Mud: 泥巴
+Leather: 皮革
+Lodestone: 天然磁石
+Chad: 圆纸屑
+Platinum Group Sludge: 铂族泥
 
 #物理名词
 Neutron: 中子
@@ -730,6 +755,7 @@ Blue Vitriol: 蓝矾
 #农业/植物相关
 Sealed Wood: 蜡封木
 Peanutwood: 花生木
+Peanut Wood: 花生木
 Petrified Wood: 石化木
 Coral: 珊瑚
 Hemp: 大麻
@@ -739,6 +765,11 @@ Wheat: 小麦
 Ironwood: 硬木
 Tree Sap: 树苗
 
+Blazereed: 火焰芦苇
+Creeperweed: 爆炸草
+Enderbloom: 末界花
+Slimeplant: 黏液草
+
 #合金/金属
 Iron: 铁
 Pig Iron: 生铁
@@ -747,8 +778,11 @@ WrougtIron: 熟铁
 Dark Iron: 玄铁
 Compressed Iron: 压缩铁
 Deep Iron: 深渊铁
+Conductive Iron: 导体铁
+Banded Iron: 带状铁
 Meteoric Iron: 陨铁
 Meteoric Steel: 陨钢
+Electrical Steel: 电钢
 Steel: 钢
 Dark Steel: 玄钢
 Annealed Copper: 韧铜
@@ -757,8 +791,8 @@ Stainless Steel: 不锈钢
 Damascus Steel: 大马士革钢
 HSLA-Steel: 高强度低合金钢
 HSLA: 高强度低合金
-Naquadah: 硅岩金属
-Naquadria: 硅岩金属
+Naquadah: 纳夸达 #硅岩金属
+Naquadria: 纳夸达瑞亚 #硅岩金属
 
 Invar: 因瓦合金
 Bismuth Bronze: 铋青铜合金
@@ -829,6 +863,11 @@ Spring: 弹簧
 Lense: 透镜
 Lens: 透镜
 Round: 垫片
+Bar: 棒
+Stick: 棍子
+
+Fluid Display: 流体显示器
+Integrated Circuit: 集成电路
 
 #其他Mod
 Infused Air: 风
@@ -853,31 +892,73 @@ Fluix: 福鲁伊克斯
 Certus Quartz: 赛特斯石英
 Charged Certus Quartz: 充能赛特斯石英
 
-Sunnarium: 阳光化合物
-Duranium: 钍瑞铌
-Tritanium: 三钛合金
-Enderium: 末影
-Manyullyn: 玛玉灵
-Aredrite: 希尔金
-Midasium: 溶火金
-Astral Silver: 星辰银
-Fiery Steel: 过烧钢
-Knightmetal: 骑士锭
-KnightMetal: 骑士锭
-Shadow Iron: 暗影铁
-Shadow Steel: 暗影钢
-Ultimet: 哈氏合金
-Vinteum: 温特姆
-Adamant: 坚硬合金
-Adamantine: 坚硬合金化合物
-Adamite: 高碳铬镍合金
+#Metallurgy
+Adamant: 血石
+Adamantine: 血石
 Adluorite: 神秘蓝金
+Alduorite: 神秘蓝金
 Amordrine: 魔力之石
 Angmallen: 神圣之金
-Pulsating Iron: 脉冲铁
+Aredrite: 希尔金
+Astral: 星辰银
+Atlarus: 深金
+Carmot: 闪耀金
+Celenegil: 幽冥毒结晶
+Ceruclase: 暗影秘银
+Desichalkos: 虚空之魂石
+Eximite: 虚空石
+Haderoth: 幻之铜
+Hepatizon: 幽魂结晶
+Ignatius: 伊格内修斯
+Inolashite: 暗影秘银蓝金
+Infuscolium: 精金
+Kalendrite: 幽冥魂石
+Lemurite: 利莫里亚
+Meutoite: 龙之魂石
+Midasium: 溶火金
+Orichalcum: 自然之石
+Oureclase: 大地结晶
+Prometheum: 秘银
+Rubracium: 褐铜
+Sanguinite: 狱炎石
+Shadow Iron: 暗影铁
+Shadow Steel: 暗影钢
 Tartarite: 溶火之石
 Vulcanite: 熔岩结晶
-Vyroxeres: 幽冥剧毒
+Vyroxeres: 幽冥剧毒结晶
+
+# Tinker's Construct
+Ardite: 阿迪特
+Manyullyn: 玛玉灵
+
+# Ars Magica 2
+Chimerite: 奇美拉
+Sunstone: 日石
+Vinteum: 古蓝石
+
+#Twilight Forest
+Knightmetal: 骑士金属
+KnightMetal: 骑士金属
+Liveroot: 活根
+
+#Unknown Mod
+Duranium: 钍瑞铌
+Energetic: 充能合金
+Lumium: 流明
+Manasteel: 魔力钢锭
+Neutronium: 0号元素
+RefinedGlowstone: 精致萤石
+RefinedObsidian: 精致黑曜石
+Signalum: 信素
+Sunnarium: 太阳合金
+Titan: 铌钛合金
+Tritanium: 三钛合金
+Ultimet: 哈氏合金
+Vibrant: 充能合金
+Phased Iron: 脉冲铁
+Phased Gold: 脉冲金
+Pulsating Iron: 脉冲铁
+
 
 #工具
 Buzzsaw: 圆锯
@@ -927,8 +1008,69 @@ GregTech Sensor Card: 格雷科技传感器卡片
 Rolling Pin: 擀面杖
 Chisel: 凿子
 Chisel Head: 凿子刀头
+Flint and Tinder: 打火石
+Cutter: 切割工具
+Grafter: 嫁接器
+Igniting Tool: 点火工具
+Monkey Wrench: 活动扳手
+Plasma Torch: 等离子弧焊枪
+Rotation Tool: 旋转工具
+Scythe: 镰刀
+Soldering Tool: 电烙铁
+Tool to Harvest: 收割工具
+Whacking Tool: 除草机
+
+#机械方块
+"#Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "燃烧室 (固体，{0[0]})"
+"#Dense Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "致密燃烧室 (固体，{0[0]})"
+"#Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "蒸汽锅炉外壳 ({0[0]})"
+"#Strong Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "强化蒸汽锅炉外壳 ({0[0]})"
 
 #语句
+Radioactivity: 辐射
+Disjunction: 分解
+
+"$gt.lang.*":
+  '#Any but (.+?)$': "除了{0[0]}"
+  Top: 顶面
+  Bottom: 底面
+  Front: 正面
+  Back: 背面
+  Left: 左侧面
+  Right: 右侧面
+  Any Side: 任何面
+  
+  Recipe: 配方
+  Converts: 将
+  "#^into$": 转化为
+  "#^using$": 使用
+  
+  Efficiency: 效率
+  Capacity: 容量
+  Stored Energy: 存储的能量
+  Energy IN: 能量输入
+  Energy OUT: 能量输出
+  
+  'Can put Blocks around it on Fire!': 会使得周围的方块着火！
+  'No GUI, Click to insert/extract Items!': 没有界面，右键以放入/取出物品
+  'Requires Air in front to work!': 正面需要是空气才能工作
+  'Requires Ashes to be extracted regularly!': 需要清理灰烬
+  'Requires ignition by Flint and Tinder or similar!': 需要打火石之类的东西点火
+  'Explodes when Steam Pressure is too high!': 蒸汽压力过高时会爆炸！
+  'Melts down when stored Heat is too much!': 存储的热量过多时会熔毁！
+  'No GUI, Click with Fluid Container to interact!': 没有界面，手持流体容器右键进行交互。
+  'Requires input of Water': 需要输入水
+  'Requires input of any Water': 需要输入任何种类的水
+  'Requires input of distilled Water': 需要需要蒸馏水
+  'Requires any Water. Use distilled Water for best efficiency!': 需要输入任何种类的水。使用蒸馏水以达到最高效率！
+  
+  Day: 天
+  Hour: 小时
+  Minute: 分钟
+  Second: 秒
+  Tick: 刻
+  Week: 星期
+
 "Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
 "You need to recharge it": 你需要为其充电
 "Hold Leftclick to dismantle Machines": 按住左键以拆卸机器
@@ -952,6 +1094,7 @@ Chisel Head: 凿子刀头
 "Crushes Ores instead of harvesting them": 得到粉碎的矿石
 "Has a slow Attack Rate": 攻击速度慢
 "Rightclick to chisel Blocks": 右键凿刻方块
+"Ignites a Fire with a Chance of": 燃起一团火焰，概率：
 
 '$^"Book\.Microwave Oven Manual(.*?)"$':
   'Microwave Oven Manual': '微波炉手册'
@@ -1025,6 +1168,7 @@ Green: 绿
 Yellow: 黄
 Black: 黑
 Brown: 褐色
+Dark: 黑暗
 
 #量词
 2x: 2x
@@ -1109,7 +1253,7 @@ Voltage2147483647: 电压：MAX
   Thermal Generator Fuel: 火力发电机燃料
   Autoclave: 高压釜
   Pulverization: 粉碎
-  Slicer: 切片机 
+  Slicer: 切片机
   Sifter: 筛滤机
   Rock Breaker: 碎石机
   Metal Bender: 卷板机
@@ -1122,7 +1266,43 @@ Voltage2147483647: 电压：MAX
   Recycler: 回收机
   Thermal Centrifuge: 热能离心机
 '$^mc\.recipe.*?$':
-  Furnace: 烧制
+  Furnace: 熔炉
+  Furnace Fuels (1 Smelt = 5000 Units): 熔炉燃料 (熔炼一次等于5000单位)
+
+#能量单位
+'$^gt.td.*?energy.*':
+  Air Pressure: 空气压力
+  Electric Energy: 电能
+  Heat Energy: 热能
+  Kinetic Energy: 动能
+  Rotation Energy: 旋转能
+  Light Energy: 光能
+  Magnetic Energy: 磁力能
+  Minecraft Joules: 焦耳
+  Redstone Flux: 红石通量
+  Steam: 蒸汽
+  Aer Vis: 风之魔力
+  Aqua Vis: 水之魔力
+  Terra Vis: 地之魔力
+  Ignis Vis: 火之魔力
+  Ordo Vis: 秩序魔力
+  Perditio Vis: 混沌魔力
+  AU: AU
+  EU: EU
+  HU: HU
+  KU: KU
+  RU: RU
+  LU: LU
+  MU: MU
+  MJ: MJ
+  RF: RF
+  SU: SU
+  Aer: Aer
+  Aqua: Aqua
+  Ignis: Ignis
+  Terra: Terra
+  Ordo: Ordo
+  Perditio: Perditio
 
 #形容词
 Anti-: 反物质
@@ -1159,6 +1339,10 @@ Chiseled: 錾制
 Smooth: 平滑
 Any: 任何
 Basic: 基础的
+Long: 长
+Refined: 精致
+Thick: 厚
+Thin: 薄
 
 #药水相关
 '$.*?potion.*':
@@ -1197,4 +1381,3 @@ Basic: 基础的
 '$.*?arrow.*':
   Light: 轻质
   Regular: 常规
-  
