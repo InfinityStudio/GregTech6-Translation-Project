@@ -422,7 +422,7 @@ Lava: 岩浆
 Biomass: 生物质
 Petroleum: 石油
 Oil: 油
-Raw Oil: 原油
+~Raw Oil: 原油
 Light Oil: 轻油
 Heavy Oil: 重油
 Very Heavy Oil: 超重油
@@ -488,7 +488,7 @@ Eggplant: 茄子
 Vodka: 伏特加
 CoffeeDust: 咖啡粉
 Cooked Meat: 熟肉
-Raw Meat: 生肉
+~Raw Meat: 生肉
 Mince Meat: 生肉糜
 Cooked Mince Meat: 熟肉糜
 Reed Water: 甘蔗汁
@@ -496,7 +496,6 @@ Vinegar: 醋
 Chocolate: 巧克力
 Lemon: 柠檬
 Potato: 马铃薯
-Grape: 葡萄
 Salty Water: 盐水
 Scotch: 苏格兰威士忌
 Sweet Tea: 甜茶
@@ -662,6 +661,7 @@ Fire: 火
 Ice: 冰
 Redstone: 红石
 Glass: 玻璃
+Glass Pane: 玻璃板
 Blaze: 火焰棒
 Charcoal: 木炭
 Brick: 砖
@@ -769,6 +769,50 @@ Blazereed: 火焰芦苇
 Creeperweed: 爆炸草
 Enderbloom: 末界花
 Slimeplant: 黏液草
+Indigo Blossom: 靛蓝花
+Used for making Blue Dye: 用于制作蓝色染料
+Tea Leaf: 茶叶
+Source of Tea: 制茶原料
+Plumbilia Leaf: 铅叶花
+Source of Lead: 生产铅
+Argentia Leaf: 银叶花
+Source of Silver: 生产银
+Ferru Leaf: 铁叶花
+Source of Iron: 生产铁
+Aurelia Leaf: 金叶花
+Source of Gold: 生产金
+Oil Berry: 原油浆果
+Oil in Berry form: 产油的浆果
+Bobs-Yer-Uncle-Berry: 易如反掌浆果
+Source of Emeralds: 生产绿宝石
+Milk Wart: 牛奶疣
+Source of Milk: 生产牛奶
+Coppon Fiber: 铜纤维
+ORANGE WOOOOOOOL!!!: 橙色羊毛!!!
+Tine Twig: 锡叶花
+Source of Tin: 生产锡
+#Lemon:
+Don't make Lemonade: 别把它做成柠檬汁
+Lemon Slice: 柠檬片
+Ideal to put on your Drink: 配上一瓶饮料,赛神仙!
+Tomato: 番茄
+Solid Ketchup: 固体番茄酱
+Tomato Slice: 番茄片
+Solid Ketchup: 固体番茄酱..
+Max Tomato: 魔改之番茄
+Full Health in one Tomato: 满满的生命值就在这个番茄里面
+Onion: 洋葱
+Taking over the whole Taste: 一发入魂
+Onion Slice: 洋葱片
+ONIONS, UNITE!: 团结起来!洋葱片!
+Cucumber: 黄瓜
+Not a Sea Cucumber!: 这可不是根海参
+Cucumber Slice: 黄瓜片
+QUEWWW-CUMMM-BERRR!!!: 黄~~~~~~~~~~~~~~~~~~~~~~瓜~~~~~~~~~~~~~~~~
+Chilly Pepper: 胡椒
+It is red and hot: 辣死人
+Grape: 葡萄
+Source of Wine: 你好，葡萄酒
 
 #合金/金属
 Iron: 铁
@@ -825,8 +869,9 @@ Wolfram: 钨
 Red Alloy: 红色合金
 StrengthenedTerrasteelAlloy: 强化泰拉钢合金
 Terrasteel: 泰拉钢
-Raw Terrasteel: 粗制泰拉钢
-RawTerrasteelAlloy: 粗制泰拉钢合金
+~Raw Terrasteel: 粗制泰拉钢
+~RawTerrasteelAlloy: 粗制泰拉钢合金
+~Raw Terrasteel Alloy: 粗制泰拉钢合金
 Strengthened Terrasteel: 强化泰拉钢
 
 #名词
@@ -866,6 +911,9 @@ Round: 垫片
 Bar: 棒
 Stick: 棍子
 
+Cart Wheel: 矿车车轮
+Item Casing: 机械外壳
+
 Fluid Display: 流体显示器
 Integrated Circuit: 集成电路
 
@@ -900,7 +948,7 @@ Alduorite: 神秘蓝金
 Amordrine: 魔力之石
 Angmallen: 神圣之金
 Aredrite: 希尔金
-Astral: 星辰银
+Astral Silver: 星辰银
 Atlarus: 深金
 Carmot: 闪耀金
 Celenegil: 幽冥毒结晶
@@ -1019,12 +1067,26 @@ Scythe: 镰刀
 Soldering Tool: 电烙铁
 Tool to Harvest: 收割工具
 Whacking Tool: 除草机
+Bending Cylinder: 弯曲绕筒
+"#^Raw(.*)": "粗糙的{0[0]}"
+
+#物品
+Book: 书
+Match: 火柴
+Match Box: 火柴盒
+Lighter: 打火机
+Lighter (Empty): 打火机(空)
+
+
 
 #机械方块
 "#Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "燃烧室 (固体，{0[0]})"
 "#Dense Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "致密燃烧室 (固体，{0[0]})"
-"#Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "蒸汽锅炉外壳 ({0[0]})"
-"#Strong Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "强化蒸汽锅炉外壳 ({0[0]})"
+"#Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "蒸汽锅炉 ({0[0]})"
+"#Strong Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "强化蒸汽锅炉 ({0[0]})"
+"#Steam Engine \\(([a-zA-Z]+?)\\)": "蒸汽引擎 ({0[0]})"
+"#Strong Steam Engine \\(([a-zA-Z]+?)\\)": "强化蒸汽引擎 ({0[0]})"
+Miniature Nether Portal: 微型地狱传送门
 
 #语句
 Radioactivity: 辐射
@@ -1039,11 +1101,12 @@ Disjunction: 分解
   Left: 左侧面
   Right: 右侧面
   Any Side: 任何面
+  Sides: 侧面
   
   Recipe: 配方
   Converts: 将
   "#^into$": 转化为
-  "#^using$": 使用
+  "#^using$": 消耗
   
   Efficiency: 效率
   Capacity: 容量
@@ -1059,10 +1122,17 @@ Disjunction: 分解
   'Explodes when Steam Pressure is too high!': 蒸汽压力过高时会爆炸！
   'Melts down when stored Heat is too much!': 存储的热量过多时会熔毁！
   'No GUI, Click with Fluid Container to interact!': 没有界面，手持流体容器右键进行交互。
-  'Requires input of Water': 需要输入水
-  'Requires input of any Water': 需要输入任何种类的水
-  'Requires input of distilled Water': 需要需要蒸馏水
+  'Requires input of Water!': 需要输入水
+  'Requires input of any Water!': 需要输入任何种类的水
+  'Requires input of distilled Water!': 需要输入蒸馏水
   'Requires any Water. Use distilled Water for best efficiency!': 需要输入任何种类的水。使用蒸馏水以达到最高效率！
+  'Can accept Redstone Flux (RF) losslessly': 可以无损地接收红石通量(RF)
+  'Can accept Redstone Flux (RF) with a Loss of': 可以有损地接收红石通量(RF)，损耗：
+  'Can emit Redstone Flux (RF) losslessly': 可以无损地输出红石通量(RF)
+  'Can emit Redstone Flux (RF) with a Loss of': 可以有损地输出红石通量(RF)，损耗：
+  'Emits used Steam': 输出使用过的蒸汽
+  'Needs to be in a loaded Chunk to work properly!': 需要区块载入才能正常工作！
+  
   
   Day: 天
   Hour: 小时
@@ -1088,13 +1158,33 @@ Disjunction: 分解
 "Rotates Blocks on Rightclick": 右键旋转方块
 "Because a Scythe doesn't make Sense": 小镰刀不够用了
 "Clears Essentia from Containers and Tubes": 清除容器和管道中的要素原质
-"Can till Dirt": 用于耕地
+"Can till Dirt and similar Earths": 用于开垦耕地和类似的土壤
 "Rightclick to harvest Crop Sticks": 右键回收作物架
 "Can also harvest Ice": 也可以用于采集冰块
 "Crushes Ores instead of harvesting them": 得到粉碎的矿石
 "Has a slow Attack Rate": 攻击速度慢
 "Rightclick to chisel Blocks": 右键凿刻方块
 "Ignites a Fire with a Chance of": 燃起一团火焰，概率：
+"Teleports Items, Fluids, Redstone, Comparator Signals, GT Energy and more!": 传送物品，流体，红石，比较器信号，GT能量，以及更多！
+"Only works between the Nether and the Overworld with the x8 Distance Factor!": 只能在主世界和下界之间工作，并且受到8倍距离因子的影响！
+"Always teleports things to the closest active Portal in Range!": 总是将物品传送到最近的被激活的传送门。
+"This is not a Car": 这不是一辆车
+"A known Master of Pranks is engraved on it": 上面刻着一个著名的恶作剧大师
+"Can light things on Fire": 能使东西着火
+"Remaining Uses:": "剩余使用次数:"
+"Not usable when stacked!": 堆叠时不可用！
+"Chisels Storage Blocks and chiselable Blocks": 凿刻可被凿刻的方块
+"Igniting things": 点燃东西
+"A special Wrench for secondary Facings and Pipes": 用于次要面和管道的特殊扳手
+"Emptying clogged Pipes": 疏通堵塞的管道
+"Rotating things": 旋转东西
+"Adjusts Covers, Machines and Redstone Diodes": 调整覆盖版，机器和红石中继器
+"Used to mass harvest Crops": 大面积地收割农作物
+"Toggles the States of Machines": 调整机器的状态
+"Whacking things": 重击物品
+"Rotates Blocks on Rightclick, dismantles IC2 Blocks": 右键旋转方块方向，拆除IC2的机器
+"Use Soft Hammer to Toggle States": 使用软锤调整状态
+"§r§f§lWIP§r§7, This may not be as functional as you expect it to be!": §r§f§l未完成§r§7，它可能不会如你所愿地工作
 
 '$^"Book\.Microwave Oven Manual(.*?)"$':
   'Microwave Oven Manual': '微波炉手册'
@@ -1182,6 +1272,7 @@ Quintuple: 五重
 
 #技术性字符串
 '(Empty)': '(空白)'
+'(Full)': '(满)'
 'Empty': 'Missing No.'
 '(HV)': "(高压)"
 '(LV)': "(低压)"
@@ -1276,6 +1367,7 @@ Voltage2147483647: 电压：MAX
   Heat Energy: 热能
   Kinetic Energy: 动能
   Rotation Energy: 旋转能
+  Quantum Energy: 量子能
   Light Energy: 光能
   Magnetic Energy: 磁力能
   Minecraft Joules: 焦耳
@@ -1295,6 +1387,7 @@ Voltage2147483647: 电压：MAX
   LU: LU
   MU: MU
   MJ: MJ
+  QU: QU
   RF: RF
   SU: SU
   Aer: Aer
@@ -1375,6 +1468,8 @@ Thin: 薄
   Tiny Dust: 很小一堆粉末
   Main: 格雷科技
   Blocks of Cast Metal: 铸造金属块
+  Item Casings: 金属外壳
+  Cart Wheels: 车轮
   Light: 轻质
   Regular: 常规
 

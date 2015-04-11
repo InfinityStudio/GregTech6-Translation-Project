@@ -2,6 +2,7 @@
 import yaml,re,sys
 
 ISOTOPE_REGEX=re.compile(r"(.*?)-(\d+)")
+Glob_Dict=dict()
 def try_isotope(txt,dict1,dict2):
   tmp=ISOTOPE_REGEX.search(txt)
   if tmp==None or len(tmp.groups())!=2: return ''
@@ -28,6 +29,10 @@ def translate_multi(words,x,l):
 
 def translate(txt,pri,sec,unt,is_mat):
   if sec==None: sec=(dict(),dict(),dict())
+  if txt in Glob_Dict: return Glob_Dict[txt]
+  if txt in sec[0]: return sec[0][txt]
+  if txt in pri[0]: return pri[0][txt]
+  
   re_groups=None
   group_format=""
   for t in [sec,pri]:
@@ -45,9 +50,6 @@ def translate(txt,pri,sec,unt,is_mat):
     for t in re_groups: tmp.append(translate(t,pri,sec,unt,is_mat))
     return group_format.format(tmp)
 
-
-  if txt in sec[0]: return sec[0][txt]
-  if txt in pri[0]: return pri[0][txt]
   words=[x for x in txt.split(' ') if x!=""]
   translated_words=list()
 
@@ -110,6 +112,9 @@ def load_dict(rule_list):
   regex=dict()
   for key_o in rule_list:
     key=key_o.strip()
+    if key_o[0]=='~':
+      key=key[1:]
+      Glob_Dict[key]=rule_list[key_o]
     if key[0]=='#':
       regex[re.compile(key[1:])]=rule_list[key_o]
     elif key[0]=='$':
