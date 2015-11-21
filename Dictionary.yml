@@ -123,7 +123,6 @@ Livermorium: Livermorium
 Ununseptium: 117号元素(Uus)
 Farnsium: Farnsium
 Ununoctium: 118号元素(Uuo)
-
 Ununennium: 119号元素(Uue)
 Unbinilium: 120号元素(Ubn)
 Unbiunium: 121号元素(Ubu)
@@ -406,6 +405,7 @@ Triennseptium: 397号元素(Tes)
 Triennoctium: 398号元素(Teo)
 Triennennium: 399号元素(Tee)
 
+Quantum: 量子
 #燃料
 Bio Ethanol: 生物乙醇
 Natural Gas: 天然气
@@ -651,6 +651,8 @@ DiamondIndustrial: 工业钻石
 Moonstone: 月长石
 
 #材料
+Bronze: 青铜
+Steel: 钢
 Rubber: 橡胶
 Plastic: 塑料
 Wood: 木头
@@ -875,6 +877,7 @@ Terrasteel: 泰拉钢
 Strengthened Terrasteel: 强化泰拉钢
 
 #名词
+Igniter: 点火器
 Battery: 电池
 Dust: 粉
 Ore: 矿石
@@ -893,7 +896,7 @@ Metal: 金属
 Boiler: 锅炉
 Sheet: 片
 Chest: 箱子
-
+Automatic: 自动
 Rotor: 转子
 Ring: 环
 Bolt: 螺栓
@@ -1065,7 +1068,7 @@ Plasma Torch: 等离子弧焊枪
 Rotation Tool: 旋转工具
 Scythe: 镰刀
 Soldering Tool: 电烙铁
-Tool to Harvest: 收割工具
+Tool to Harvest: 采集工具
 Whacking Tool: 除草机
 Bending Cylinder: 弯曲绕筒
 "#^Raw(.*)": "粗糙的{0[0]}"
@@ -1299,6 +1302,7 @@ Voltage2147483647: 电压：MAX
   Alloy Smelter: 合金炉
   Arc Furnace: 电弧炉
   Assembler: 组装机
+  Oven: 微波炉
   Blast Furnace: 高炉
   Brewing Machine: 酿造炉
   Ore Byproduct List: 矿物副产物列表
@@ -1320,6 +1324,7 @@ Voltage2147483647: 电压：MAX
   '#^Small (Naquadah) Reactor$': "小型{0[0]}反应堆"
   Fluid Solidifier: 液体固化器
   Fusion Reactor: 聚变反应器
+
   Hammer: 锤子/锻造锤
   Implosion Compressor: 聚爆压缩机
   Precision Laser Engraver: 激光刻蚀机
