@@ -2,11 +2,12 @@
 格雷科技6 汉化工程
 
 当前GT版本:6.01.04
-
-注意：使用前请将B:UseThisFileAsLanguageFile=false改为true!否则进入游戏后无法生效!
+ 
+注意：使用前请将B:UseThisFileAsLanguageFile=false 改为 true! 否则进入游戏后无法生效!
 
 这次使用字典替换的方法来汉化格雷
 
+### 贡献须知
 字典替换器使用方法
 
     python3 DictMapper.py [Dictionary File] [Source File] [Translated File] [UnTranslated Strings]
@@ -52,6 +53,8 @@
         S:very.strange.line=块钠粉末
     }
 
+在未汉化词语很少时可发布版本, 格式为:<语言文件版本>.<GT版本>
+### 友情链接
 旧的JavaScript字典替换器作者:wdhwg001  
 地址:[http://libertydomemod.b0.upaiyun.com/index.html](http://libertydomemod.b0.upaiyun.com/index.html)  
 YAML检查器地址:[http://nodeca.github.io/js-yaml/](http://nodeca.github.io/js-yaml/)
