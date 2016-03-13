@@ -53,7 +53,6 @@
         S:very.strange.line=块钠粉末
     }
 
-在未汉化词语很少时可发布版本, 格式为:<语言文件版本>.<GT版本>
 ### 友情链接
 旧的JavaScript字典替换器作者:wdhwg001  
 地址:[http://libertydomemod.b0.upaiyun.com/index.html](http://libertydomemod.b0.upaiyun.com/index.html)  
