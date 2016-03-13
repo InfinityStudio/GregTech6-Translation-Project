@@ -1,4 +1,208 @@
+#语句
+Radioactivity: 辐射
+Disjunction: 分解
+Dissolving: 溶解
+
+"$gt.lang.*":
+  '#Any but (.+?)$': "除了{0[0]}"
+  Top: 顶面
+  Bottom: 底面
+  Front: 正面
+  Back: 背面
+  Left: 左侧面
+  Right: 右侧面
+  Any Side: 任何面
+  Sides: 侧面
+  
+  Recipe: 配方
+  Converts: 将
+  "#^into$": 转化为
+  "#^using$": 消耗
+  
+  Efficiency: 效率
+  Capacity: 容量
+  Stored Energy: 存储的能量
+  Energy IN: 能量输入
+  Energy OUT: 能量输出
+  
+  'Can put Blocks around it on Fire!': 会使得周围的方块着火！
+  'No GUI, Click to insert/extract Items!': 没有界面，右键以放入/取出物品
+  'Requires Air in front to work!': 正面需要是空气才能工作
+  'Requires Ashes to be extracted regularly!': 需要清理灰烬
+  'Requires ignition by Flint and Tinder or similar!': 需要打火石之类的东西点火
+  'Explodes when Steam Pressure is too high!': 蒸汽压力过高时会爆炸！
+  'Melts down when stored Heat is too much!': 存储的热量过多时会熔毁！
+  'No GUI, Click with Fluid Container to interact!': 没有界面，手持流体容器右键进行交互。
+  'Requires input of Water!': 需要输入水
+  'Requires input of any Water!': 需要输入任何种类的水
+  'Requires input of distilled Water!': 需要输入蒸馏水
+  'Requires any Water. Use distilled Water for best efficiency!': 需要输入任何种类的水。使用蒸馏水以达到最高效率！
+  'Can accept Redstone Flux (RF) losslessly': 可以无损地接收红石通量(RF)
+  'Can accept Redstone Flux (RF) with a Loss of': 可以有损地接收红石通量(RF)，损耗：
+  'Can emit Redstone Flux (RF) losslessly': 可以无损地输出红石通量(RF)
+  'Can emit Redstone Flux (RF) with a Loss of': 可以有损地输出红石通量(RF)，损耗：
+  'Emits used Steam': 输出使用过的蒸汽
+  'Needs to be in a loaded Chunk to work properly!': 需要区块载入才能正常工作！
+  
+  
+  Day: 天
+  Hour: 小时
+  Minute: 分钟
+  Second: 秒
+  Tick: 刻
+  Week: 星期
+
+#说明
+#建筑泡沫
+"#Can Color things in (.+?)$": "能将东西涂成{0[0]}色"
+"#Can harden C-Foam$": "可以硬化建筑泡沫"
+"#Can remove C-Foam$": "可以移除建筑泡沫"
+"#Can place (.+) C-Foam$": "可以放置{0[0]}色建筑泡沫"
+"(.+) Fresh C-Foam$": "未干{0[0]}色建筑泡沫"
+"#(.+) Fresh C-Foam Slab$": "未干{0[0]}色建筑泡沫台阶"
+"#(.+) C-Foam$": "{0[0]}色建筑泡沫"
+"#(.+) C-Foam Slab$": "{0[0]}色建筑泡沫台阶"
+
+
+#剪子
+"Shaves Sheep, Mooshrooms and alike": "修建羊, 蘑菇和其他东西"
+
+#绊线
+"Can cut Tripwires by Rightclick": "可以右键来剪掉绊线"
+
+#双重斧
+"Chops down whole Trees and has a slow Attack Rate": "砍掉整个树木, 并且有着一个小型攻击范围"
+
+#斧
+"Faster on Logs. Chops down whole Trees.": "快速砍伐木材, 砍掉整个树木."
+
+#施工剪
+"Construction Pick": "施工剪"
+"Good for Bricks and alike, terrible for mining": "对砖等材料很有用, 不要用于挖矿!"
+
+#染料
+"#Chemical (.+) Dye$": "化学{0[0]}色染料"
+"#Water Mixed (.+) Dye$": "水混{0[0]}色染料"
+
+#活动扳手
+"Use Monkey Wrench to set (.+)": "使用活动扳手来设置{0[0]}"
+"Use Monkey Wrench to Toggle (.+)": "使用活动扳手来开启{0[0]}"
+
+"Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
+"You need to recharge it": 你需要为其充电
+"Hold Leftclick to dismantle Machines": 按住左键以拆卸机器
+"Breaks Rocks into pieces": 将岩石破成碎片
+"Not suitable for harvesting Blocks": 不适合采集方块
+"Adjusts Covers and Machines": 调整机器和覆盖版
+"Dismounts Covers and Rotates Rails": 拆卸覆盖版和旋转铁轨
+"Used to get rid of Snow": 消灭积雪
+"Mobs cannot Spawn on this Block": 生物不会在这个方块上生成
+"Nuclear Control not installed": Nuclear Control未安装
+"Clears Items from Pipes": 清除管道中的物品
+"Usable for Prospecting": 不适于探矿
+"Activates and Deactivates Machines": 用于激活和关闭机器
+"Throw into Cauldron to clean this Item": 投入炼药锅以清洗
+"Rotates Blocks on Rightclick": 右键旋转方块
+"Because a Scythe doesn't make Sense": 小镰刀不够用了
+"Clears Essentia from Containers and Tubes": 清除容器和管道中的要素原质
+"Can till Dirt and similar Earths": 用于开垦耕地和类似的土壤
+"Rightclick to harvest Crop Sticks": 右键回收作物架
+"Can also harvest Ice": 也可以用于采集冰块
+"Crushes Ores instead of harvesting them": 得到粉碎的矿石
+"Has a slow Attack Rate": 攻击速度慢
+"Rightclick to chisel Blocks": 右键凿刻方块
+"Ignites a Fire with a Chance of": 燃起一团火焰，概率：
+"Teleports Items, Fluids, Redstone, Comparator Signals, GT Energy and more!": 传送物品，流体，红石，比较器信号，GT能量，以及更多！
+"Only works between the Nether and the Overworld with the x8 Distance Factor!": 只能在主世界和下界之间工作，并且受到8倍距离因子的影响！
+"Always teleports things to the closest active Portal in Range!": 总是将物品传送到最近的被激活的传送门。
+"This is not a Car": 这不是一辆车
+"A known Master of Pranks is engraved on it": 上面刻着一个著名的恶作剧大师
+"Can light things on Fire": 能使东西着火
+"Remaining Uses:": "剩余使用次数:"
+"Not usable when stacked!": 堆叠时不可用！
+"Chisels Storage Blocks and chiselable Blocks": 凿刻可被凿刻的方块
+"Igniting things": 点燃东西
+"A special Wrench for secondary Facings and Pipes": 用于次要面和管道的特殊扳手
+"Emptying clogged Pipes": 疏通堵塞的管道
+"Rotating things": 旋转东西
+"Adjusts Covers, Machines and Redstone Diodes": 调整覆盖版，机器和红石中继器
+"Used to mass harvest Crops": 大面积地收割农作物
+"Toggles the States of Machines": 调整机器的状态
+"Whacking things": 重击物品
+"Rotates Blocks on Rightclick, dismantles IC2 Blocks": 右键旋转方块方向，拆除IC2的机器
+"Use Soft Hammer to Toggle States": 使用软锤调整状态
+"§r§f§lWIP§r§7, This may not be as functional as you expect it to be!": §r§f§l未完成§r§7，它可能不会如你所愿地工作
+
+'$^"Book\.Microwave Oven Manual(.*?)"$':
+  'Microwave Oven Manual': '微波炉手册'
+  'Congratulations, you inserted a random seemingly empty Book into the Microwave and these Letters appeared out of nowhere.': '恭喜！你将一本表面上空空如也的书塞进了微波炉，但是一些字符神奇地显示了出来。'
+  "You just got a Microwave Oven and asked yourself 'why do I even need it?'.": "你刚刚获得了一台微波炉，然后扪心自问“我为什么会需要这玩意儿？”"
+  "It's simple, the Microwave can cook for just 128 EU and at an insane speed.": "显而易见的，一台微波炉只要128EU的电力即可工作，并且能以疯狂的速度烹饪食物。"
+  "Not even a normal E-furnace can do it that fast and cheap!": "你再也不能找出什么别的机器能将这件事做得又好又快又便宜了。"
+  'This is the cheapest and fastest way to cook for you.': "它是你烹饪食物最经济快捷的方式了。"
+  'That is why the Microwave Oven can be found in almost every Kitchen (see www.youwannabuyakitchen.ly).': "这就是为什么几乎每个厨房都有一台微波炉的原因了 (见 www.youwannabuyakitchen.ly)。"
+  'Long time exposure to Microwaves can cause Cancer,': "长时间暴露在微波下会导致癌症，"
+  'but we doubt Steve lives long enough to die because of that.': "但是我们怀疑Steve活不到他真的死于癌症的那一天。"
+  'Do not insert any Metals. It might result in an Explosion.': '不要放入任何金属！会爆炸的！'
+  'Do not dry Animals with it. It will result in a Hot Dog, no matter which Animal you put into it.': '不要用它来干燥你的动物，你会得到一份热狗，不管你放进去的是什么动物。'
+  'Do not insert inflammable Objects. The Oven will catch on Fire.': '不要放入不可燃物品！炉子会着火的！'
+  "Do not insert Explosives such as Eggs. Just don't.": '不要放入爆炸物！比如鸡蛋。也不要问那么多为什么。'
+
+'$^"Book\.Printer Manual V2\.0(.*?)"$':
+  "Printer Manual V2.0": "打印机手册 V2.0"
+  "This Manual explains the different Functionalities the GregTech Printing Factory has built in,": "这份手册描述了格雷科技打印机的未在NEI合成表中列出的功能。"
+  "which are not in NEI. Most got NEI Support now, but there is still some left without it.": "尽管NEI包括了大部分的功能，但它还是漏掉了一些。"
+  "1. Coloring Items and Blocks: You know those Crafting Recipes,": "1、给物品和方块染色：你一定知道那些"
+  "which have a dye surrounded by 8 Item to dye them?": "由八个物品围绕着一份染料"
+  "Or the ones which have just one Item and one Dye in the Grid?": "或是有一份物品加一份染料构成的合成吧？"
+  "Those two Recipe Types can be cheaply automated using the Printer.": "这两种类型的合成可以由打印机以经济的方式进行自动化处理。"
+  "The Colorization Functionality even optimizes the Recipes,": "打印机同时优化了流程，让平时所需的八份物品加一份染料"
+  "which normally require 8 Items + 1 Dye to 1 Item and an 8th of the normally used Dye in Fluid Form,": "变为一个物品加八分之一份液体染料。"
+  "isn't that awesome?": "这真是个不错的改进。"
+  "2. Copying Books: This Task got slightly harder.": "2、复印书籍：这个任务稍微有些复杂。"
+  "The first Step is putting the written and signed Book inside the Scanner with a Data Stick ready to receive the Data.": "第一步是将成书连同数据球一起放入扫描仪中。"
+  "Now insert the Stick into the Data Slot of the Printer and add 3 pieces of Paper together with 144 Liters of actual Ink Fluid.": "然后将数据球放入打印机的数据槽中，并放入三张纸和144L纯墨水。"
+  "Water mixed and chemical Dyes won't work on Paper without messing things up!": "水合墨水和化学染料会将纸张弄得一团糟！"
+  "You got a stack of Pages for your new Book, just put them into the Assembler": "现在，你的到了新书的一叠纸，你只需把它们"
+  "with some Glue and a piece of Leather for the Binding,": "和一张皮革和一些胶水一起送进组装器即可。"
+  "and you receive an identical copy of the Book, which would stack together with the original.": "这样你就获得了和原书一模一样的一份拷贝，他们应该能堆叠在一起。"
+  "3. Renaming Items: This Functionality is no longer Part of the Printer.": "3、重命名物品：这事现在不归打印机管了。"
+  "There is now a Name Mold for the Forming Press to imprint a Name into an Item,": "现在将名称压印到物品上的任务落到了命名模具的的身上。"
+  "just rename the Mold in an Anvil and use it in the Forming Press on any Item.": "你只需将模具放入铁砧重命名即可用其压印任何物品。"
+  "4. Crafting of Books, Maps, Nametags etc etc etc:": "4、书本，地图，命名牌之类之类的合成："
+  "Those Recipes moved to other Machines, just look them up in NEI.": "这些合成被移动到了其他机器中，快去NEI里找找！"
+
+'$^"Book\.Punch Card Manual.*?"$': # TODO: 等GT作者脑洞完成再翻译
+  'Punch Card Manual V0.0': "Punch Card Manual V0.0"
+  "This Manual will explain the Functionality of the Punch Cards,": "This Manual will explain the Functionality of the Punch Cards,"
+  "once they are fully implemented.": " once they are fully implemented."
+  "And no, they won't be like the IRL Punch Cards.": "And no, they won't be like the IRL Punch Cards."
+  "This is just a current Idea Collection.": " This is just a current Idea Collection."
+  "(i1&&i2)?o1=15:o1=0;=10": "(i1&&i2)?o1=15:o1=0;=10"
+  "ignore all Whitespace Characters, use Long for saving the Numbers": "ignore all Whitespace Characters, use Long for saving the Numbers"
+  "&& || ^^ & | ^ ! ++ -- + - % / // * ** << >> >>> < > <= >= == !=  ~ ( ) ?: , ; ;= ;=X; = i0 i1 i2 i3 i4 i5 o0 o1 o2 o3 o4 o5 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 m0 m1 m2 m3 m4 m5 m6 m7 m8 m9 A B C D E F": "&& || ^^ & | ^ ! ++ -- + - % / // * ** << >> >>> < > <= >= == !=  ~ ( ) ?: , ; ;= ;=X; = i0 i1 i2 i3 i4 i5 o0 o1 o2 o3 o4 o5 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 m0 m1 m2 m3 m4 m5 m6 m7 m8 m9 A B C D E F"
+  "'0' = false, 'everything but 0' = true, '!' turns '0' into '1' and everything else into '0'": "'0' = false, 'everything but 0' = true, '!' turns '0' into '1' and everything else into '0'"
+  "',' is just a separator for multiple executed Codes in a row.": "',' is just a separator for multiple executed Codes in a row."
+  "';' means that the Program waits until the next tick before continuing.": "';' means that the Program waits until the next tick before continuing."
+  "';=10' and ';=10;' both mean that it will wait 10 Ticks instead of 1.": " ';=10' and ';=10;' both mean that it will wait 10 Ticks instead of 1."
+  "And ';=0' or anything < 0 will default to 0.": " And ';=0' or anything < 0 will default to 0."
+  "If the '=' Operator is used within Brackets, it returns the value the variable has been set to.": "If the '=' Operator is used within Brackets, it returns the value the variable has been set to."
+  "The Program saves the Char Index of the current Task,": "The Program saves the Char Index of the current Task,"
+  "the 10 Variables (which reset to 0 as soon as the Program Loop stops),": " the 10 Variables (which reset to 0 as soon as the Program Loop stops),"
+  "the 10 Member Variables and the remaining waiting Time in its NBT.": " the 10 Member Variables and the remaining waiting Time in its NBT."
+  "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15, just for Hexadecimal Space saving, since Redstone has only 4 Bits.": "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15, just for Hexadecimal Space saving, since Redstone has only 4 Bits."
+  "For implementing Loops you just need 1 Punch Card per Loop,": "For implementing Loops you just need 1 Punch Card per Loop,"
+  "these Cards can restart once they are finished,": " these Cards can restart once they are finished,"
+  "depending on how many other Cards there are in the Program Loop you inserted your Card into, since it will process them procedurally.": " depending on how many other Cards there are in the Program Loop you inserted your Card into, since it will process them procedurally."
+  "A Punch Card Processor can run up to four Loops, each with the length of seven Punch Cards, parallel.": "A Punch Card Processor can run up to four Loops, each with the length of seven Punch Cards, parallel."
+  "Why does the Punch Card need Ink to be": "Why does the Punch Card need Ink to be"
+  "made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card.": " made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card."
+
 #元素
+Enderium: 末影锭
+Fiery: 炽热
+Ceramic: 陶瓷
+Alfium: 阿尔菲
 Hydrogen: 氢
 Helium: 氦
 Lithium: 锂
@@ -885,6 +1089,50 @@ Terrasteel: 泰拉钢
 Strengthened Terrasteel: 强化泰拉钢
 
 #名词
+"$oredict.block*":
+    "#Blocks of (.+)$": "{0[0]}块"
+    "#Block of (.+)$": "{0[0]}块"
+
+Centrifugable: 可离心
+Crystallisable: 可结晶
+#No: 没有 <- TODO: Python throws an exception there
+Item: 物品
+Block: 方块
+Tools: 工具
+Can: 可以
+Solid: 固体
+place: 放置
+Used: 用来
+interact: 交互
+change: 切换
+Design: 设计
+use: 使用
+used: 用来
+well: 好吧
+what: 什么
+weight: 重量
+automatic: 自动化
+Input: 输入
+input: 输入
+Inputs: 输入
+inputs: 输入
+Output: 输出
+output: 输出
+Outputs: 输出
+outputs: 输出
+toggle: 开启/关闭
+Toggle: 开启/关闭
+Loss: 丢失
+Amperage: 安(安倍)
+Voltage: 电压
+to: 来
+Use: 使用
+set: 设置
+Connections: 连接
+Facing: 朝向
+Direction: 位置
+Modes: 模式
+Side: 端
 Nuclear Control: 核电控制
 Infinite: 无限
 Cable: 线缆
@@ -1102,204 +1350,32 @@ Lighter (Empty): 打火机(空)
 "#Dense Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "致密燃烧室 (固体，{0[0]})"
 "#Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "蒸汽锅炉 ({0[0]})"
 "#Strong Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "强化蒸汽锅炉 ({0[0]})"
-"#Steam Engine \\(([a-zA-Z]+?)\\)": "蒸汽引擎 ({0[0]})"
+"#Steam Engine \\((.+)\\)": "蒸汽引擎 ({0[0]})"
 "#Strong Steam Engine \\(([a-zA-Z]+?)\\)": "强化蒸汽引擎 ({0[0]})"
 Miniature Nether Portal: 微型地狱传送门
-
-#语句
-Radioactivity: 辐射
-Disjunction: 分解
-Dissolving: 溶解
-
-"$gt.lang.*":
-  '#Any but (.+?)$': "除了{0[0]}"
-  Top: 顶面
-  Bottom: 底面
-  Front: 正面
-  Back: 背面
-  Left: 左侧面
-  Right: 右侧面
-  Any Side: 任何面
-  Sides: 侧面
-  
-  Recipe: 配方
-  Converts: 将
-  "#^into$": 转化为
-  "#^using$": 消耗
-  
-  Efficiency: 效率
-  Capacity: 容量
-  Stored Energy: 存储的能量
-  Energy IN: 能量输入
-  Energy OUT: 能量输出
-  
-  'Can put Blocks around it on Fire!': 会使得周围的方块着火！
-  'No GUI, Click to insert/extract Items!': 没有界面，右键以放入/取出物品
-  'Requires Air in front to work!': 正面需要是空气才能工作
-  'Requires Ashes to be extracted regularly!': 需要清理灰烬
-  'Requires ignition by Flint and Tinder or similar!': 需要打火石之类的东西点火
-  'Explodes when Steam Pressure is too high!': 蒸汽压力过高时会爆炸！
-  'Melts down when stored Heat is too much!': 存储的热量过多时会熔毁！
-  'No GUI, Click with Fluid Container to interact!': 没有界面，手持流体容器右键进行交互。
-  'Requires input of Water!': 需要输入水
-  'Requires input of any Water!': 需要输入任何种类的水
-  'Requires input of distilled Water!': 需要输入蒸馏水
-  'Requires any Water. Use distilled Water for best efficiency!': 需要输入任何种类的水。使用蒸馏水以达到最高效率！
-  'Can accept Redstone Flux (RF) losslessly': 可以无损地接收红石通量(RF)
-  'Can accept Redstone Flux (RF) with a Loss of': 可以有损地接收红石通量(RF)，损耗：
-  'Can emit Redstone Flux (RF) losslessly': 可以无损地输出红石通量(RF)
-  'Can emit Redstone Flux (RF) with a Loss of': 可以有损地输出红石通量(RF)，损耗：
-  'Emits used Steam': 输出使用过的蒸汽
-  'Needs to be in a loaded Chunk to work properly!': 需要区块载入才能正常工作！
-  
-  
-  Day: 天
-  Hour: 小时
-  Minute: 分钟
-  Second: 秒
-  Tick: 刻
-  Week: 星期
-
-#说明
-#建筑泡沫
-"#Can Color things in (.+?)$": "能将东西涂成{0[0]}色"
-"#Can place (.+) C-Foam$": "可以放置{0[0]}色C-泡沫"
-"Can harden C-Foam": "可以硬化C-泡沫"
-"Can remove C-Foam": "可以移除C-泡沫"
-"#(.+) C-Foam$": "{0[0]}色建筑泡沫"
-"#(.+) C-Foam Slab$": "{0[0]}色建筑泡沫台阶"
-"#(.+) Fresh C-Foam$": "未干{0[0]}色建筑泡沫"
-"#(.+) Fresh C-Foam Slab$": "未干{0[0]}色建筑泡沫台阶"
-
-#剪子
-"Shaves Sheep, Mooshrooms and alike": "修建羊, 蘑菇和其他东西"
-
-#绊线
-"Can cut Tripwires by Rightclick": "可以右键来剪掉绊线"
-
-#双重斧
-"Chops down whole Trees and has a slow Attack Rate": "砍掉整个树木, 并且有着一个小型攻击范围"
-
-#斧
-"Faster on Logs. Chops down whole Trees.": "快速砍伐木材, 砍掉整个树木."
-
-#施工剪
-"Construction Pick": "施工剪"
-"Good for Bricks and alike, terrible for mining": "对砖等材料很有用, 不要用于挖矿!"
-
-#染料
-"#Chemical (.+) Dye$": "化学{0[0]}色染料"
-"#Water Mixed (.+) Dye$": "水混{0[0]}色染料"
-
-"Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
-"You need to recharge it": 你需要为其充电
-"Hold Leftclick to dismantle Machines": 按住左键以拆卸机器
-"Breaks Rocks into pieces": 将岩石破成碎片
-"Not suitable for harvesting Blocks": 不适合采集方块
-"Adjusts Covers and Machines": 调整机器和覆盖版
-"Dismounts Covers and Rotates Rails": 拆卸覆盖版和旋转铁轨
-"Used to get rid of Snow": 消灭积雪
-"Mobs cannot Spawn on this Block": 生物不会在这个方块上生成
-"Nuclear Control not installed": Nuclear Control未安装
-"Clears Items from Pipes": 清除管道中的物品
-"Usable for Prospecting": 不适于探矿
-"Activates and Deactivates Machines": 用于激活和关闭机器
-"Throw into Cauldron to clean this Item": 投入炼药锅以清洗
-"Rotates Blocks on Rightclick": 右键旋转方块
-"Because a Scythe doesn't make Sense": 小镰刀不够用了
-"Clears Essentia from Containers and Tubes": 清除容器和管道中的要素原质
-"Can till Dirt and similar Earths": 用于开垦耕地和类似的土壤
-"Rightclick to harvest Crop Sticks": 右键回收作物架
-"Can also harvest Ice": 也可以用于采集冰块
-"Crushes Ores instead of harvesting them": 得到粉碎的矿石
-"Has a slow Attack Rate": 攻击速度慢
-"Rightclick to chisel Blocks": 右键凿刻方块
-"Ignites a Fire with a Chance of": 燃起一团火焰，概率：
-"Teleports Items, Fluids, Redstone, Comparator Signals, GT Energy and more!": 传送物品，流体，红石，比较器信号，GT能量，以及更多！
-"Only works between the Nether and the Overworld with the x8 Distance Factor!": 只能在主世界和下界之间工作，并且受到8倍距离因子的影响！
-"Always teleports things to the closest active Portal in Range!": 总是将物品传送到最近的被激活的传送门。
-"This is not a Car": 这不是一辆车
-"A known Master of Pranks is engraved on it": 上面刻着一个著名的恶作剧大师
-"Can light things on Fire": 能使东西着火
-"Remaining Uses:": "剩余使用次数:"
-"Not usable when stacked!": 堆叠时不可用！
-"Chisels Storage Blocks and chiselable Blocks": 凿刻可被凿刻的方块
-"Igniting things": 点燃东西
-"A special Wrench for secondary Facings and Pipes": 用于次要面和管道的特殊扳手
-"Emptying clogged Pipes": 疏通堵塞的管道
-"Rotating things": 旋转东西
-"Adjusts Covers, Machines and Redstone Diodes": 调整覆盖版，机器和红石中继器
-"Used to mass harvest Crops": 大面积地收割农作物
-"Toggles the States of Machines": 调整机器的状态
-"Whacking things": 重击物品
-"Rotates Blocks on Rightclick, dismantles IC2 Blocks": 右键旋转方块方向，拆除IC2的机器
-"Use Soft Hammer to Toggle States": 使用软锤调整状态
-"§r§f§lWIP§r§7, This may not be as functional as you expect it to be!": §r§f§l未完成§r§7，它可能不会如你所愿地工作
-
-'$^"Book\.Microwave Oven Manual(.*?)"$':
-  'Microwave Oven Manual': '微波炉手册'
-  'Congratulations, you inserted a random seemingly empty Book into the Microwave and these Letters appeared out of nowhere.': '恭喜！你将一本表面上空空如也的书塞进了微波炉，但是一些字符神奇地显示了出来。'
-  "You just got a Microwave Oven and asked yourself 'why do I even need it?'.": "你刚刚获得了一台微波炉，然后扪心自问“我为什么会需要这玩意儿？”"
-  "It's simple, the Microwave can cook for just 128 EU and at an insane speed.": "显而易见的，一台微波炉只要128EU的电力即可工作，并且能以疯狂的速度烹饪食物。"
-  "Not even a normal E-furnace can do it that fast and cheap!": "你再也不能找出什么别的机器能将这件事做得又好又快又便宜了。"
-  'This is the cheapest and fastest way to cook for you.': "它是你烹饪食物最经济快捷的方式了。"
-  'That is why the Microwave Oven can be found in almost every Kitchen (see www.youwannabuyakitchen.ly).': "这就是为什么几乎每个厨房都有一台微波炉的原因了 (见 www.youwannabuyakitchen.ly)。"
-  'Long time exposure to Microwaves can cause Cancer,': "长时间暴露在微波下会导致癌症，"
-  'but we doubt Steve lives long enough to die because of that.': "但是我们怀疑Steve活不到他真的死于癌症的那一天。"
-  'Do not insert any Metals. It might result in an Explosion.': '不要放入任何金属！会爆炸的！'
-  'Do not dry Animals with it. It will result in a Hot Dog, no matter which Animal you put into it.': '不要用它来干燥你的动物，你会得到一份热狗，不管你放进去的是什么动物。'
-  'Do not insert inflammable Objects. The Oven will catch on Fire.': '不要放入不可燃物品！炉子会着火的！'
-  "Do not insert Explosives such as Eggs. Just don't.": '不要放入爆炸物！比如鸡蛋。也不要问那么多为什么。'
-
-'$^"Book\.Printer Manual V2\.0(.*?)"$':
-  "Printer Manual V2.0": "打印机手册 V2.0"
-  "This Manual explains the different Functionalities the GregTech Printing Factory has built in,": "这份手册描述了格雷科技打印机的未在NEI合成表中列出的功能。"
-  "which are not in NEI. Most got NEI Support now, but there is still some left without it.": "尽管NEI包括了大部分的功能，但它还是漏掉了一些。"
-  "1. Coloring Items and Blocks: You know those Crafting Recipes,": "1、给物品和方块染色：你一定知道那些"
-  "which have a dye surrounded by 8 Item to dye them?": "由八个物品围绕着一份染料"
-  "Or the ones which have just one Item and one Dye in the Grid?": "或是有一份物品加一份染料构成的合成吧？"
-  "Those two Recipe Types can be cheaply automated using the Printer.": "这两种类型的合成可以由打印机以经济的方式进行自动化处理。"
-  "The Colorization Functionality even optimizes the Recipes,": "打印机同时优化了流程，让平时所需的八份物品加一份染料"
-  "which normally require 8 Items + 1 Dye to 1 Item and an 8th of the normally used Dye in Fluid Form,": "变为一个物品加八分之一份液体染料。"
-  "isn't that awesome?": "这真是个不错的改进。"
-  "2. Copying Books: This Task got slightly harder.": "2、复印书籍：这个任务稍微有些复杂。"
-  "The first Step is putting the written and signed Book inside the Scanner with a Data Stick ready to receive the Data.": "第一步是将成书连同数据球一起放入扫描仪中。"
-  "Now insert the Stick into the Data Slot of the Printer and add 3 pieces of Paper together with 144 Liters of actual Ink Fluid.": "然后将数据球放入打印机的数据槽中，并放入三张纸和144L纯墨水。"
-  "Water mixed and chemical Dyes won't work on Paper without messing things up!": "水合墨水和化学染料会将纸张弄得一团糟！"
-  "You got a stack of Pages for your new Book, just put them into the Assembler": "现在，你的到了新书的一叠纸，你只需把它们"
-  "with some Glue and a piece of Leather for the Binding,": "和一张皮革和一些胶水一起送进组装器即可。"
-  "and you receive an identical copy of the Book, which would stack together with the original.": "这样你就获得了和原书一模一样的一份拷贝，他们应该能堆叠在一起。"
-  "3. Renaming Items: This Functionality is no longer Part of the Printer.": "3、重命名物品：这事现在不归打印机管了。"
-  "There is now a Name Mold for the Forming Press to imprint a Name into an Item,": "现在将名称压印到物品上的任务落到了命名模具的的身上。"
-  "just rename the Mold in an Anvil and use it in the Forming Press on any Item.": "你只需将模具放入铁砧重命名即可用其压印任何物品。"
-  "4. Crafting of Books, Maps, Nametags etc etc etc:": "4、书本，地图，命名牌之类之类的合成："
-  "Those Recipes moved to other Machines, just look them up in NEI.": "这些合成被移动到了其他机器中，快去NEI里找找！"
-
-'$^"Book\.Punch Card Manual.*?"$': # TODO: 等GT作者脑洞完成再翻译
-  'Punch Card Manual V0.0': "Punch Card Manual V0.0"
-  "This Manual will explain the Functionality of the Punch Cards,": "This Manual will explain the Functionality of the Punch Cards,"
-  "once they are fully implemented.": " once they are fully implemented."
-  "And no, they won't be like the IRL Punch Cards.": "And no, they won't be like the IRL Punch Cards."
-  "This is just a current Idea Collection.": " This is just a current Idea Collection."
-  "(i1&&i2)?o1=15:o1=0;=10": "(i1&&i2)?o1=15:o1=0;=10"
-  "ignore all Whitespace Characters, use Long for saving the Numbers": "ignore all Whitespace Characters, use Long for saving the Numbers"
-  "&& || ^^ & | ^ ! ++ -- + - % / // * ** << >> >>> < > <= >= == !=  ~ ( ) ?: , ; ;= ;=X; = i0 i1 i2 i3 i4 i5 o0 o1 o2 o3 o4 o5 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 m0 m1 m2 m3 m4 m5 m6 m7 m8 m9 A B C D E F": "&& || ^^ & | ^ ! ++ -- + - % / // * ** << >> >>> < > <= >= == !=  ~ ( ) ?: , ; ;= ;=X; = i0 i1 i2 i3 i4 i5 o0 o1 o2 o3 o4 o5 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 m0 m1 m2 m3 m4 m5 m6 m7 m8 m9 A B C D E F"
-  "'0' = false, 'everything but 0' = true, '!' turns '0' into '1' and everything else into '0'": "'0' = false, 'everything but 0' = true, '!' turns '0' into '1' and everything else into '0'"
-  "',' is just a separator for multiple executed Codes in a row.": "',' is just a separator for multiple executed Codes in a row."
-  "';' means that the Program waits until the next tick before continuing.": "';' means that the Program waits until the next tick before continuing."
-  "';=10' and ';=10;' both mean that it will wait 10 Ticks instead of 1.": " ';=10' and ';=10;' both mean that it will wait 10 Ticks instead of 1."
-  "And ';=0' or anything < 0 will default to 0.": " And ';=0' or anything < 0 will default to 0."
-  "If the '=' Operator is used within Brackets, it returns the value the variable has been set to.": "If the '=' Operator is used within Brackets, it returns the value the variable has been set to."
-  "The Program saves the Char Index of the current Task,": "The Program saves the Char Index of the current Task,"
-  "the 10 Variables (which reset to 0 as soon as the Program Loop stops),": " the 10 Variables (which reset to 0 as soon as the Program Loop stops),"
-  "the 10 Member Variables and the remaining waiting Time in its NBT.": " the 10 Member Variables and the remaining waiting Time in its NBT."
-  "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15, just for Hexadecimal Space saving, since Redstone has only 4 Bits.": "A = 10, B = 11, C = 12, D = 13, E = 14, F = 15, just for Hexadecimal Space saving, since Redstone has only 4 Bits."
-  "For implementing Loops you just need 1 Punch Card per Loop,": "For implementing Loops you just need 1 Punch Card per Loop,"
-  "these Cards can restart once they are finished,": " these Cards can restart once they are finished,"
-  "depending on how many other Cards there are in the Program Loop you inserted your Card into, since it will process them procedurally.": " depending on how many other Cards there are in the Program Loop you inserted your Card into, since it will process them procedurally."
-  "A Punch Card Processor can run up to four Loops, each with the length of seven Punch Cards, parallel.": "A Punch Card Processor can run up to four Loops, each with the length of seven Punch Cards, parallel."
-  "Why does the Punch Card need Ink to be": "Why does the Punch Card need Ink to be"
-  "made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card.": " made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card."
+"#Electric Heater": "电力加热机"
+"#Smelting Crucible \\((.+)\\)": "冶炼锅 ({0[0]})"
+"#Mold \\((.+)\\)": "模型 ({0[0]})"
+"#Flux Heater \\((.+)\\)": "电磁炉 ({0[0]})"
+"#Flux Engine \\((.+)\\)": "电磁引擎 ({0[0]})"
+"#Flux Motor \\((.+)\\)": "电磁马达 ({0[0]})"
+"#Oven \\((.+)\\)": "微波炉 ({0[0]})"
+"#Shredder \\((.+)\\)": "碎纸机 ({0[0]})"
+"#Crusher \\((.+)\\)": "打粉机 ({0[0]})"
+"#Lathe \\((.+)\\)": "车床 ({0[0]})"
+"#Sifter \\((.+)\\)": "筛子 ({0[0]})"
+"#Squeezer \\((.+)\\)": "压榨机 ({0[0]})"
+"#Centrifuge \\((.+)\\)": "离心机 ({0[0]})"
+"#Electrolyzer \\((.+)\\)": "电解机 ({0[0]})"
+"#Rolling Mill \\((.+)\\)": "轧压机 ({0[0]})"
+"#Roll Bender \\((.+)\\)": "滚弯机 ({0[0]})"
+"#Cluster Mill \\((.+)\\)": "多重轧压机 ({0[0]})"
+"#Wiremill \\((.+)\\)": "线材切割机 ({0[0]})"
+"#Canning Machine \\((.+)\\)": "装罐机 ({0[0]})"
+"#Roasting Oven \\((.+)\\)": "烤炉 ({0[0]})"
+"#Mixer \\((.+)\\)": "搅拌机 ({0[0]})"
+"#Distillery \\((.+)\\)": "酿酒厂 ({0[0]})"
+"#Coagulator": "凝结机"
 
 #颜色
 Red: 红
@@ -1336,9 +1412,9 @@ Quintuple: 五重
 '(HV)': "(高压)"
 '(LV)': "(低压)"
 '(MV)': "(中压)"
-'Any Sub-Block of this one': '任何该方块的子方块'
-'Any Sub Block of this one': '任何该方块的子方块'
-'Any Sub-Item of this one': '任何该物品的子物品'
+'#Any Sub-Block of this one$': '任何该方块的子方块'
+'#Any Sub Block of this one$': '任何该方块的子方块'
+'#Any Sub-Item of this one$': '任何该物品的子物品'
 'Generated Item': 生成的物品
 'NULL': NULL
 Unknown: 未知
@@ -1459,6 +1535,10 @@ Voltage2147483647: 电压：MAX
   Perditio: Perditio
 
 #形容词
+Restrictive: 限制性
+Awakened: 惊醒的
+Ultimate: 终极
+Advanced: 高级
 Machine: 机器
 Casing: 外壳
 Reinforced: 强化
@@ -1489,9 +1569,6 @@ Crates of: '板条箱:'
 Nether: 地狱
 Magnetic: 磁化
 Powder: 粉
-Fresh: 新鲜的
-"#Blocks of (.+)$": "${0[0]}块"
-"#Block of (.+)$": "${0[0]}块"
 Centrifuged: 离心过的
 End: 末地
 Hot: 炙热的
