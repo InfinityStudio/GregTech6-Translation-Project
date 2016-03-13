@@ -506,6 +506,7 @@ Diabolo Sauce: 魔改型恶魔辣酱
 Sweet: 糖果
 
 #石材/建材
+C-Foam: 建筑泡沫
 Sandstone: 砂石
 Gravel: 沙砾
 Sand: 沙子
@@ -551,6 +552,7 @@ Selenite: 透石膏
 Serpentine: 蛇纹石
 
 #矿物
+Adamite: 
 '#^Small (.*) (Ore)$': "贫瘠的{0[0]}{0[1]}"
 Bentonite: 膨润土
 Garnet: 石榴石
@@ -651,6 +653,7 @@ DiamondIndustrial: 工业钻石
 Moonstone: 月长石
 
 #材料
+Olive: 橄榄
 Bronze: 青铜
 Steel: 钢
 Rubber: 橡胶
@@ -666,6 +669,7 @@ Glass: 玻璃
 Glass Pane: 玻璃板
 Blaze: 火焰棒
 Charcoal: 木炭
+Slab: 台阶
 Brick: 砖
 Ash: 灰
 Ashes: 灰
@@ -749,6 +753,7 @@ Solution: 溶液
 Nitro: 硝基
 Sulfuric Acid: 硫酸
 Nitric Acid: 硝酸
+Acid: 酸
 Aqua Regia: 王水
 Ammonium: 铵
 Potash: 钾碱
@@ -773,6 +778,7 @@ Enderbloom: 末界花
 Slimeplant: 黏液草
 Indigo Blossom: 靛蓝花
 Used for making Blue Dye: 用于制作蓝色染料
+Dye: 染料
 Tea Leaf: 茶叶
 Source of Tea: 制茶原料
 Plumbilia Leaf: 铅叶花
@@ -793,6 +799,7 @@ Coppon Fiber: 铜纤维
 ORANGE WOOOOOOOL!!!: 橙色羊毛!!!
 Tine Twig: 锡叶花
 Source of Tin: 生产锡
+
 #Lemon:
 Don't make Lemonade: 别把它做成柠檬汁
 Lemon Slice: 柠檬片
@@ -817,6 +824,7 @@ Grape: 葡萄
 Source of Wine: 你好，葡萄酒
 
 #合金/金属
+Hydrochloric: 盐
 Iron: 铁
 Pig Iron: 生铁
 Wrought Iron: 熟铁
@@ -877,6 +885,13 @@ Terrasteel: 泰拉钢
 Strengthened Terrasteel: 强化泰拉钢
 
 #名词
+Nuclear Control: 核电控制
+Infinite: 无限
+Cable: 线缆
+Tube: 筒
+Carbide: 碳化
+Fluid Pipe: 流体管道
+Pipe: 管道
 Igniter: 点火器
 Battery: 电池
 Dust: 粉
@@ -1094,6 +1109,7 @@ Miniature Nether Portal: 微型地狱传送门
 #语句
 Radioactivity: 辐射
 Disjunction: 分解
+Dissolving: 溶解
 
 "$gt.lang.*":
   '#Any but (.+?)$': "除了{0[0]}"
@@ -1143,6 +1159,37 @@ Disjunction: 分解
   Second: 秒
   Tick: 刻
   Week: 星期
+
+#说明
+#建筑泡沫
+"#Can Color things in (.+?)$": "能将东西涂成{0[0]}色"
+"#Can place (.+) C-Foam$": "可以放置{0[0]}色C-泡沫"
+"Can harden C-Foam": "可以硬化C-泡沫"
+"Can remove C-Foam": "可以移除C-泡沫"
+"#(.+) C-Foam$": "{0[0]}色建筑泡沫"
+"#(.+) C-Foam Slab$": "{0[0]}色建筑泡沫台阶"
+"#(.+) Fresh C-Foam$": "未干{0[0]}色建筑泡沫"
+"#(.+) Fresh C-Foam Slab$": "未干{0[0]}色建筑泡沫台阶"
+
+#剪子
+"Shaves Sheep, Mooshrooms and alike": "修建羊, 蘑菇和其他东西"
+
+#绊线
+"Can cut Tripwires by Rightclick": "可以右键来剪掉绊线"
+
+#双重斧
+"Chops down whole Trees and has a slow Attack Rate": "砍掉整个树木, 并且有着一个小型攻击范围"
+
+#斧
+"Faster on Logs. Chops down whole Trees.": "快速砍伐木材, 砍掉整个树木."
+
+#施工剪
+"Construction Pick": "施工剪"
+"Good for Bricks and alike, terrible for mining": "对砖等材料很有用, 不要用于挖矿!"
+
+#染料
+"#Chemical (.+) Dye$": "化学{0[0]}色染料"
+"#Water Mixed (.+) Dye$": "水混{0[0]}色染料"
 
 "Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
 "You need to recharge it": 你需要为其充电
@@ -1256,12 +1303,21 @@ Disjunction: 分解
 
 #颜色
 Red: 红
+Light: 亮
 Blue: 蓝
 Green: 绿
+Cyan: 青
+Gray: 灰
+Magenta: 品红
+Orange: 橘
+White: 白
 Yellow: 黄
+Purple: 紫
 Black: 黑
 Brown: 褐色
 Dark: 黑暗
+Lime: 柠檬
+Pink: 粉
 
 #量词
 2x: 2x
@@ -1403,9 +1459,22 @@ Voltage2147483647: 电压：MAX
   Perditio: Perditio
 
 #形容词
+Machine: 机器
+Casing: 外壳
+Reinforced: 强化
+Ground: 地面
+Chunk: 块
+containing: 装有
+Large: 大型的
+Huge: 巨型
+Tiny: 小型
+Magnifying: 放大
+Extinguishes: 熄灭
+Wheaty: 小麦
 Anti-: 反物质
 Plasma: 离子
 Enriched: 浓缩
+Chemical: 化学
 Small Pile of: 小堆
 Purified: 纯净
 Tiny Pile of: 小撮
@@ -1420,8 +1489,9 @@ Crates of: '板条箱:'
 Nether: 地狱
 Magnetic: 磁化
 Powder: 粉
-Blocks of: 块状
-Block of: 块状
+Fresh: 新鲜的
+"#Blocks of (.+)$": "${0[0]}块"
+"#Block of (.+)$": "${0[0]}块"
 Centrifuged: 离心过的
 End: 末地
 Hot: 炙热的
@@ -1439,8 +1509,10 @@ Any: 任何
 Basic: 基础的
 Long: 长
 Refined: 精致
+Fine: 精致
 Thick: 厚
 Thin: 薄
+Scrap: 废料
 
 #药水相关
 '$.*?potion.*':

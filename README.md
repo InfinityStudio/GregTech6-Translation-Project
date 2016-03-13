@@ -1,6 +1,10 @@
 # GregTech6-Translation-Project
 格雷科技6 汉化工程
 
+当前GT版本:6.01.04
+
+注意：使用前请将B:UseThisFileAsLanguageFile=false改为true!否则进入游戏后无法生效!
+
 这次使用字典替换的方法来汉化格雷
 
 字典替换器使用方法
