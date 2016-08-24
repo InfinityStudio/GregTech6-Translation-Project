@@ -2,6 +2,8 @@
 Radioactivity: 辐射
 Disjunction: 分解
 Dissolving: 溶解
+Werebane: 狂犬病
+
 
 "$gt.lang.*":
   '#Any but (.+?)$': "除了{0[0]}"
@@ -54,14 +56,18 @@ Dissolving: 溶解
 
 #说明
 #建筑泡沫
-"#Can Color things in (.+?)$": "能将东西涂成{0[0]}色"
-"#Can harden C-Foam$": "可以硬化建筑泡沫"
-"#Can remove C-Foam$": "可以移除建筑泡沫"
-"#Can place (.+) C-Foam$": "可以放置{0[0]}色建筑泡沫"
-"(.+) Fresh C-Foam$": "未干{0[0]}色建筑泡沫"
-"#(.+) Fresh C-Foam Slab$": "未干{0[0]}色建筑泡沫台阶"
-"#(.+) C-Foam$": "{0[0]}色建筑泡沫"
-"#(.+) C-Foam Slab$": "{0[0]}色建筑泡沫台阶"
+"Can Decolor things": 可以移除一个东西的颜色
+'#Can harden C-Foam': '可以硬化建筑泡沫'
+'#Can remove C-Foam': '可以移除建筑泡沫'
+'#Can place (.+) C-Foam': '可以放置{0[0]}色建筑泡沫'
+'#(.+) Fresh C-Foam': '未干{0[0]}色建筑泡沫'
+'#(.+) Fresh C-Foam Slab': '未干{0[0]}色建筑泡沫台阶'
+'$^gt\.behaviour\.paintspray\.\d+\.tooltip$':
+    '#Can Color things in (.+)$': '能将东西涂成{0[0]}色'
+'$^gt\.block\.cfoam\.\d+\.name$':
+    '#(.+) C-Foam': '{0[0]}色建筑泡沫'
+'$^gt\.block\.cfoam\.slab\.\d+\.\d+\.name$':
+    '#(.+) C-Foam Slab': '{0[0]}色建筑泡沫台阶'
 
 
 #剪子
@@ -87,7 +93,7 @@ Dissolving: 溶解
 #活动扳手
 "Use Monkey Wrench to set (.+)": "使用活动扳手来设置{0[0]}"
 "Use Monkey Wrench to Toggle (.+)": "使用活动扳手来开启{0[0]}"
-
+"Faster on Planks. Slower on Logs. Can harvest Ice.": "在木板上速度高, 在木头上速度低, 可以切割冰."
 "Clears 1000 Liters of Fluid from Tanks": 从水槽中移除1000L液体
 "You need to recharge it": 你需要为其充电
 "Hold Leftclick to dismantle Machines": 按住左键以拆卸机器
@@ -199,8 +205,6 @@ Dissolving: 溶解
   "made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card.": " made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card."
 
 #元素
-Enderium: 末影锭
-Fiery: 炽热
 Ceramic: 陶瓷
 Alfium: 阿尔菲
 Hydrogen: 氢
@@ -259,6 +263,8 @@ Antimony: 锑
 Tellurium: 碲
 Iodine: 碘
 Xenon: 氙
+Chloroauric: 氯
+Chloroplatinic: 氯
 Cesium: 铯
 Caesium: 铯
 Barium: 钡
@@ -647,6 +653,10 @@ UU-Amplifier: UU增幅液
 UU Amplifier: UU增幅液
 Uran: 尿
 Mc Guffium 239: Mc Guffium 239
+Vitriol: 矾
+Monoxide: 一氧化碳
+Dioxide: 二氧化碳
+
 
 #食物
 Fish Oil: 鱼油
@@ -679,6 +689,8 @@ Ice Tea: 冰红茶
 Notches Brew: Notches煲
 Pirate Brew: 海盗啤酒
 Milk: 牛奶
+Cream: 奶油
+"Heavy Cream": 重奶油
 Apple Juice: 苹果汁
 Alcopops: 波普甜酒
 Beer: 啤酒
@@ -857,6 +869,7 @@ DiamondIndustrial: 工业钻石
 Moonstone: 月长石
 
 #材料
+Signalum: 信素
 Olive: 橄榄
 Bronze: 青铜
 Steel: 钢
@@ -1028,6 +1041,7 @@ Grape: 葡萄
 Source of Wine: 你好，葡萄酒
 
 #合金/金属
+Helium-Neon: 氦化氖
 Hydrochloric: 盐
 Iron: 铁
 Pig Iron: 生铁
@@ -1049,8 +1063,10 @@ Stainless Steel: 不锈钢
 Damascus Steel: 大马士革钢
 HSLA-Steel: 高强度低合金钢
 HSLA: 高强度低合金
-Naquadah: 纳夸达 #硅岩金属
-Naquadria: 纳夸达瑞亚 #硅岩金属
+#硅岩金属
+Naquadah: 纳夸达
+#硅岩金属
+Naquadria: 纳夸达瑞亚 
 
 Invar: 因瓦合金
 Bismuth Bronze: 铋青铜合金
@@ -1093,6 +1109,14 @@ Strengthened Terrasteel: 强化泰拉钢
     "#Blocks of (.+)$": "{0[0]}块"
     "#Block of (.+)$": "{0[0]}块"
 
+Soda: 苏打
+Mayonnaise: 蛋黄酱
+Flower: 花
+Blossom: 花
+Fiber: 纤维
+String: 线
+Berry: 梅
+Honeydew: 甘露
 Centrifugable: 可离心
 Crystallisable: 可结晶
 #No: 没有 <- TODO: Python throws an exception there
@@ -1101,6 +1125,7 @@ Block: 方块
 Tools: 工具
 Can: 可以
 Solid: 固体
+solid: 固体
 place: 放置
 Used: 用来
 interact: 交互
@@ -1151,6 +1176,8 @@ Alloy: 合金
 Cell: 单元
 Arrow: 箭
 Arrow Head: 箭头
+Twig: 条
+Wart: 疣
 Crystal: 晶体
 Gem: 宝石
 Gemstone: 宝石原石
@@ -1181,6 +1208,9 @@ Cart Wheel: 矿车车轮
 Item Casing: 机械外壳
 
 Fluid Display: 流体显示器
+Circuit: 电路
+"Circuit Part": "部分电路"
+
 Integrated Circuit: 集成电路
 
 #其他Mod
@@ -1250,12 +1280,15 @@ Chimerite: 奇美拉
 Sunstone: 日石
 Vinteum: 古蓝石
 
-#Twilight Forest
+# Galacticraft
+Martian: 火星
+
+# Twilight Forest
 Knightmetal: 骑士金属
 KnightMetal: 骑士金属
 Liveroot: 活根
 
-#Unknown Mod
+# Unknown Mod
 Duranium: 钍瑞铌
 Energetic: 充能合金
 Lumium: 流明
@@ -1272,6 +1305,33 @@ Vibrant: 充能合金
 Phased Iron: 脉冲铁
 Phased Gold: 脉冲金
 Pulsating Iron: 脉冲铁
+
+# TODO: Need Review
+Signalum: 信素
+Enderium: 末影
+"Enderium Base": 末影基
+Elementium: 源质钢
+Flerovium: 鈇
+Force: 力量
+Forcicium: 力源
+Forcillium: 力控
+Elven: 精灵
+Flux: 波动
+Electrotine: 电子集
+Bituminous: 沥青
+Pepper: 胡椒
+Bisulfate: 硫酸氢
+Soularium: 魂金
+Petrotheum: 地岩
+Phosphorite: 磷灰石
+Pinalite: 钨酸铅盐
+Hexaiodide: 六集密碘
+Nikolite: 蓝石
+Migmatite: 混岩
+Fiery: 炽热
+Sperrylite: 砷铂
+Vanilla: 香草
+Wolframite: 黑钨
 
 
 #工具
@@ -1346,36 +1406,40 @@ Lighter (Empty): 打火机(空)
 
 
 #机械方块
+"#Electric Motor \\((\\w+)\\)": "电动马达 ({0[0]})"
+"#Transformer \\((\\w+)\\)": "变压器 ({0[0]})"
+"#Electromagnet \\((\\w+)\\)": "电磁铁 ({0[0]})"
 "#Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "燃烧室 (固体，{0[0]})"
 "#Dense Burning Box \\(Solid, ([a-zA-Z]+?)\\)": "致密燃烧室 (固体，{0[0]})"
 "#Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "蒸汽锅炉 ({0[0]})"
 "#Strong Steam Boiler Tank \\(([a-zA-Z]+?)\\)": "强化蒸汽锅炉 ({0[0]})"
-"#Steam Engine \\((.+)\\)": "蒸汽引擎 ({0[0]})"
+"#Steam Engine \\((\\w+)\\)": "蒸汽引擎 ({0[0]})"
 "#Strong Steam Engine \\(([a-zA-Z]+?)\\)": "强化蒸汽引擎 ({0[0]})"
 Miniature Nether Portal: 微型地狱传送门
 "#Electric Heater": "电力加热机"
-"#Smelting Crucible \\((.+)\\)": "冶炼锅 ({0[0]})"
-"#Mold \\((.+)\\)": "模型 ({0[0]})"
-"#Flux Heater \\((.+)\\)": "电磁炉 ({0[0]})"
-"#Flux Engine \\((.+)\\)": "电磁引擎 ({0[0]})"
-"#Flux Motor \\((.+)\\)": "电磁马达 ({0[0]})"
-"#Oven \\((.+)\\)": "微波炉 ({0[0]})"
-"#Shredder \\((.+)\\)": "碎纸机 ({0[0]})"
-"#Crusher \\((.+)\\)": "打粉机 ({0[0]})"
-"#Lathe \\((.+)\\)": "车床 ({0[0]})"
-"#Sifter \\((.+)\\)": "筛子 ({0[0]})"
-"#Squeezer \\((.+)\\)": "压榨机 ({0[0]})"
-"#Centrifuge \\((.+)\\)": "离心机 ({0[0]})"
-"#Electrolyzer \\((.+)\\)": "电解机 ({0[0]})"
-"#Rolling Mill \\((.+)\\)": "轧压机 ({0[0]})"
-"#Roll Bender \\((.+)\\)": "滚弯机 ({0[0]})"
-"#Cluster Mill \\((.+)\\)": "多重轧压机 ({0[0]})"
-"#Wiremill \\((.+)\\)": "线材切割机 ({0[0]})"
-"#Canning Machine \\((.+)\\)": "装罐机 ({0[0]})"
-"#Roasting Oven \\((.+)\\)": "烤炉 ({0[0]})"
-"#Mixer \\((.+)\\)": "搅拌机 ({0[0]})"
-"#Distillery \\((.+)\\)": "酿酒厂 ({0[0]})"
+"#Smelting Crucible \\((\\w+)\\)": "冶炼锅 ({0[0]})"
+"#Mold \\((\\w+)\\)": "模型 ({0[0]})"
+"#Flux Heater \\((\\w+)\\)": "电磁炉 ({0[0]})"
+"#Flux Engine \\((\\w+)\\)": "电磁引擎 ({0[0]})"
+"#Flux Motor \\((\\w+)\\)": "电磁马达 ({0[0]})"
+"#Oven \\((\\w+)\\)": "微波炉 ({0[0]})"
+"#Shredder \\((\\w+)\\)": "碎纸机 ({0[0]})"
+"#Crusher \\((\\w+)\\)": "打粉机 ({0[0]})"
+"#Lathe \\((\\w+)\\)": "车床 ({0[0]})"
+"#Sifter \\((\\w+)\\)": "筛子 ({0[0]})"
+"#Squeezer \\((\\w+)\\)": "压榨机 ({0[0]})"
+"#Centrifuge \\((\\w+)\\)": "离心机 ({0[0]})"
+"#Electrolyzer \\((\\w+)\\)": "电解机 ({0[0]})"
+"#Rolling Mill \\((\\w+)\\)": "轧压机 ({0[0]})"
+"#Roll Bender \\((\\w+)\\)": "滚弯机 ({0[0]})"
+"#Cluster Mill \\((\\w+)\\)": "多重轧压机 ({0[0]})"
+"#Wiremill \\((\\w+)\\)": "线材切割机 ({0[0]})"
+"#Canning Machine \\((\\w+)\\)": "装罐机 ({0[0]})"
+"#Roasting Oven \\((\\w+)\\)": "烤炉 ({0[0]})"
+"#Mixer \\((\\w+)\\)": "搅拌机 ({0[0]})"
+"#Distillery \\((\\w+)\\)": "酿酒厂 ({0[0]})"
 "#Coagulator": "凝结机"
+
 
 #颜色
 Red: 红
@@ -1394,6 +1458,7 @@ Brown: 褐色
 Dark: 黑暗
 Lime: 柠檬
 Pink: 粉
+Indigo: 靛青
 
 #量词
 2x: 2x
@@ -1409,9 +1474,9 @@ Quintuple: 五重
 '(Empty)': '(空白)'
 '(Full)': '(满)'
 'Empty': 'Missing No.'
-'(HV)': "(高压)"
-'(LV)': "(低压)"
-'(MV)': "(中压)"
+"(HV)": '(高压)'
+"(LV)": '(低压)'
+"(MV)": '(中压)'
 '#Any Sub-Block of this one$': '任何该方块的子方块'
 '#Any Sub Block of this one$': '任何该方块的子方块'
 '#Any Sub-Item of this one$': '任何该物品的子物品'
@@ -1535,6 +1600,9 @@ Voltage2147483647: 电压：MAX
   Perditio: Perditio
 
 #形容词
+Curved: 弯曲
+Gilded: 镀金
+Mineral: 可挖掘的
 Restrictive: 限制性
 Awakened: 惊醒的
 Ultimate: 终极

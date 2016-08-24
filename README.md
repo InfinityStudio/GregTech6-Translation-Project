@@ -1,7 +1,7 @@
 # GregTech6-Translation-Project
 格雷科技6 汉化工程
 
-当前GT版本:6.01.04
+当前GT版本:[6.03.16](http://gregtech.overminddl1.com/com/gregoriust/gregtech/gregtech_1.7.10/6.03.16/gregtech_1.7.10-6.03.16.jar "点击下载")
  
 注意：使用前请将B:UseThisFileAsLanguageFile=false 改为 true! 否则进入游戏后无法生效!
 
